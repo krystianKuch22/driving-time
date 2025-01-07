@@ -1,13 +1,13 @@
 import fs from "fs";
 import path from "path";
-import { Footer } from "@/components/layout/footer/Footer";
-import LanguageSwitcher from "@/components/specific/languageSwitcher/LanguageSwitcher";
 
-export default function Home({ translations }) {
+export default function PrivacyPolicy({ translations }) {
   return (
     <>
-      <LanguageSwitcher />
-      <Footer language={translations} />
+      <div>
+        POLITYKA PRYWATNOŚCI APLIKACJI MOBILNEJ
+        {translations.privacyPolicy}
+      </div>
     </>
   );
 }
