@@ -1,7 +1,11 @@
-import { useEffect } from "react";
+import { LanguageProvider } from "@/context/LanguageContext";
 
 function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  return (
+    <LanguageProvider>
+      <Component {...pageProps} />
+    </LanguageProvider>
+  );
 }
 
 export default App;

@@ -1,25 +1,21 @@
-import fs from "fs";
-import path from "path";
 import { Footer } from "@/components/layout/footer/Footer";
-import LanguageSwitcher from "@/components/specific/languageSwitcher/LanguageSwitcher";
 
-export default function Home({ translations }) {
+import { useLanguage } from "@/context/LanguageContext";
+import Link from "next/link";
+
+
+export default function Home() {
+  const { t, changeLanguage, language } = useLanguage();
+
   return (
     <>
-      <LanguageSwitcher />
-      <Footer language={translations} />
+      {/* <LanguageSwitcher /> */}
+      <p>{t("privacyPolicy")}</p>
+      <p>{language}</p>
+      <button onClick={() => changeLanguage("pl")}>Polski</button>
+      <button onClick={() => changeLanguage("en")}>English</button>
+      <Link href="/privacyPolicy">{t("privacyPolicy")}</Link>
+      <Link href="termsOfUse">{t('termsOfUse')}</Link>
     </>
   );
-}
-
-export async function getStaticProps({ locale }) {
-  const filePath = path.resolve(process.cwd(), `locales/${locale}/common.json`);
-  const fileContents = fs.readFileSync(filePath, "utf-8");
-  const translations = JSON.parse(fileContents);
-
-  return {
-    props: {
-      translations, // Tłumaczenia przesłane jako props
-    },
-  };
 }
