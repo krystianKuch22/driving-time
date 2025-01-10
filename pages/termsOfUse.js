@@ -1,13 +1,13 @@
 import Wrapper from "@/components/layout/wrapper/Wrapper";
-import TermsOfUse from "@/components/sections/termsOfUse/TermsOfUse";
-import { useLanguage } from "@/context/LanguageContext";
+import TermsOfUseSection from "@/components/sections/termsOfUseSection/TermsOfUseSection";
 
-export default function PrivacyPolicy() {
-  const { t, changeLanguage, language } = useLanguage();
+
+export default function TermsOfUse() {
+  
 
   return (
     <Wrapper>
-        <TermsOfUse/>
+        <TermsOfUseSection/>
     </Wrapper>
   );
 }

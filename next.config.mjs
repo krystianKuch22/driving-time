@@ -5,8 +5,9 @@ const nextConfig = {
     styledComponents: true,
   },
   i18n: {
-    locales: ["en", "pl"], // Obsługiwane języki
+    locales: ["pl", "en"], // Obsługiwane języki
     defaultLocale: "pl", // Domyślny język
+    localeDetection: false,
   },
 };
 

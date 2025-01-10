@@ -1,8 +1,9 @@
-import { useLanguage } from "@/context/LanguageContext";
+
+import { useLanguage } from "@/hooks/useLanguage";
 import { StyledPolicySection } from "./PolicySection.style";
 
 export default function PolicySection() {
-  const { t, changeLanguage, language } = useLanguage();
+  const { t, changeLanguage, language } = useLanguage('policyPrivacy');
   return (
     <StyledPolicySection>
       <h1>{t("policyH1").toUpperCase()}</h1>
