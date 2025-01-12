@@ -19,6 +19,7 @@ export default function Home() {
       <button onClick={() => changeLanguage("en")}>English</button>
       <Link href="/privacyPolicy">{t("privacyPolicy")}</Link>
       <Link href="termsOfUse">{t("termsOfUse")}</Link>
+      <p>Drive Time</p>
     </>
   );
 }
