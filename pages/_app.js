@@ -9,3 +9,5 @@ function App({ Component, pageProps }) {
     </LanguageProvider>
   );
 }
+
+export default App;
