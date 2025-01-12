@@ -23,3 +23,15 @@ export default function Home() {
     </>
   );
 }
+
+export async function getStaticProps({ locale }) {
+  const filePath = path.resolve(process.cwd(), `locales/${locale}/common.json`);
+  const fileContents = fs.readFileSync(filePath, "utf-8");
+  const translations = JSON.parse(fileContents);
+
+  return {
+    props: {
+      translations, // Tłumaczenia przesłane jako props
+    },
+  };
+}
