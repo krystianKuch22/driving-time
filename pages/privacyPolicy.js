@@ -1,25 +1,13 @@
-import fs from "fs";
-import path from "path";
+import Wrapper from "@/components/layout/wrapper/Wrapper";
+import PolicySection from "@/components/sections/policySection/PolicySection";
+import { useLanguage } from "@/context/LanguageContext";
 
-export default function PrivacyPolicy({ translations }) {
+export default function PrivacyPolicy() {
+  
+
   return (
-    <>
-      <div>
-        POLITYKA PRYWATNOŚCI APLIKACJI MOBILNEJ
-        {translations.privacyPolicy}
-      </div>
-    </>
+    <Wrapper>
+      <PolicySection/>
+    </Wrapper>
   );
-}
-
-export async function getStaticProps({ locale }) {
-  const filePath = path.resolve(process.cwd(), `locales/${locale}/common.json`);
-  const fileContents = fs.readFileSync(filePath, "utf-8");
-  const translations = JSON.parse(fileContents);
-
-  return {
-    props: {
-      translations, // Tłumaczenia przesłane jako props
-    },
-  };
 }
