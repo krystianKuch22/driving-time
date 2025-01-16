@@ -64,7 +64,7 @@ export default function PolicySection() {
       </ol>
       <h2>{t("rights")}</h2>
       <p>
-        {t("paragraph13").part1} <br/> 
+        {t("paragraph13").part1} <br />
         {t("paragraph13").part2}
       </p>
       <ol type="a">

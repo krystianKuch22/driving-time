@@ -17,8 +17,8 @@ export default function Home() {
       {/* <p>{language}</p> */}
       <button onClick={() => changeLanguage("pl")}>Polski</button>
       <button onClick={() => changeLanguage("en")}>English</button>
-      <Link href="/privacyPolicy">{t("privacyPolicy")}</Link>
-      <Link href="termsOfUse">{t("termsOfUse")}</Link>
+      <Link href="/privacy-policy">{t("privacyPolicy")}</Link>
+      <Link href="terms-of-use">{t("termsOfUse")}</Link>
     </>
   );
 }
