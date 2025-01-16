@@ -1,15 +1,23 @@
-
 import { useLanguage } from "@/hooks/useLanguage";
 import { StyledPolicySection } from "./PolicySection.style";
 
 export default function PolicySection() {
-  const { t, changeLanguage, language } = useLanguage('policyPrivacy');
+  const { t, changeLanguage, language } = useLanguage("policyPrivacy");
   return (
     <StyledPolicySection>
       <h1>{t("policyH1").toUpperCase()}</h1>
-      <p>{t("paragraph1")}</p>
+      <p>
+        <strong>{t("paragraph1").nameApp}</strong>
+        {" " + t("paragraph1").middleText}
+        <strong>{" " + t("paragraph1").application}</strong>
+        {" " + t("paragraph1").mainPart}
+      </p>
       <p>{t("paragraph2")}</p>
-      <p>{t("paragraph3")}</p>
+      <p>
+        {t("paragraph3").firstPart}
+        <strong>{" " + t("paragraph3").rodo}</strong>
+        {" " + t("paragraph3").secondPart}
+      </p>
       <h2>{t("whoIsAdmin")}</h2>
       <p>{t("paragraph4")}</p>
       <p>{t("paragraph5")}</p>
@@ -55,7 +63,10 @@ export default function PolicySection() {
         </li>
       </ol>
       <h2>{t("rights")}</h2>
-      <p>{t("paragraph13")}</p>
+      <p>
+        {t("paragraph13").part1} <br/> 
+        {t("paragraph13").part2}
+      </p>
       <ol type="a">
         <li>{t("rightsListA")}</li>
         <li>{t("rightsListB")}</li>
