@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { StyledFooter } from "./Footer.style";
 
-
-export function Footer({language}) {
-  
-
+export function Footer({ language }) {
   return (
     <StyledFooter>
-    <Link href="/privacyPolicy">{language.privacyPolicy}</Link>
+      <div>
+        <Link href="/privacy-policy">{language("privacyPolicy")}</Link>
+        <Link href="/delete-account">{language("delete")}</Link>
+      </div>
     </StyledFooter>
   );
 }
