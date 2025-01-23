@@ -56,4 +56,11 @@ export const StyledBurgerButton = styled.button`
         
         `}/* transform: rotateZ(-45deg); */
   }
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1200px) {
+    display: none;
+  }
 `;

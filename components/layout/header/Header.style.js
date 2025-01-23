@@ -15,4 +15,12 @@ h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #fff;
 }
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 1200px) {
+    
+}
 `
