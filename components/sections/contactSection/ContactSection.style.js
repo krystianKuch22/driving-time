@@ -5,7 +5,7 @@ export const StyledContactSection = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 60vh;
+  height: 80vh;
   background-color: #2c2c2c;
   text-align: center;
 
