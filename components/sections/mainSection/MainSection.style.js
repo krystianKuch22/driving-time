@@ -5,7 +5,8 @@ export const StyledMainSection = styled.section`
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 44vh;
+  height: 60vh;
+  padding-top: 5em;
   background-color: #2c2c2c;
   color: #fff;
   text-align: center;
