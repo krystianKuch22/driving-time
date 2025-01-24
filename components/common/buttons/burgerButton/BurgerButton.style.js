@@ -2,7 +2,11 @@ import styled from "styled-components";
 
 export const StyledBurgerButton = styled.button`
   position: absolute;
-  top: 2em;
+  //
+  display: none;
+  //
+  top: 50%;
+  transform: translateY(-50%);
   right: 1.5em;
   width: 4em;
   height: 2.5em;

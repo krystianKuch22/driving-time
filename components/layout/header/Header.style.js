@@ -12,7 +12,8 @@ transition: height 1s;
 
 h2{
     position: absolute;
-    top: 1.5em;
+    top: 50%;
+    transform: translateY(-50%);
     left: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #fff;
