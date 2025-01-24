@@ -8,6 +8,8 @@ padding: 2em 1em;
 height: ${props => props.$isOpen ? "100vh" : "12vh"};
 border-bottom: solid 2px #fff;
 transition: height 1s;
+
+
 h2{
     position: absolute;
     top: 1.5em;

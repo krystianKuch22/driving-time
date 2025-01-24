@@ -16,7 +16,7 @@ export default function DeleteForm() {
   };
   return (
     <StyledDeleteForm action="POST">
-      <h1>Usuń swoje konto</h1>
+      <h1>Usuń konto</h1>
       <label>
         <input
           type="email"

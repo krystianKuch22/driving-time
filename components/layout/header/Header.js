@@ -7,13 +7,18 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const showMenu = () => {
+    !isOpen
+      ? (document.body.style.overflow = "hidden")
+      : (document.body.style.overflow = "scroll");
     setIsOpen((prev) => !prev);
   };
 
   return (
     <StyledHeader $isOpen={isOpen}>
-      <h2><Link href="/">Drive time</Link></h2>
-      <BurgerButton showMenu={showMenu} isOpen={isOpen}/>
+      <h2>
+        <Link href="/">Drive Time</Link>
+      </h2>
+      <BurgerButton showMenu={showMenu} isOpen={isOpen} />
     </StyledHeader>
   );
 }

@@ -4,7 +4,7 @@ import { StyledContactSection } from "./ContactSection.style";
 export default function ContactSection() {
   return (
     <StyledContactSection>
-        <h2>Skontaktuj się z nami!</h2>
+        <h2>Napisz do nas, jeśli chcesz zacząć korzystać z oprogramowania.</h2>
       <ContactForm />
     </StyledContactSection>
   );

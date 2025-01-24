@@ -6,7 +6,7 @@ export function Footer({ language }) {
     <StyledFooter>
       <div>
         <Link href="/privacy-policy">{language("privacyPolicy")}</Link>
-        <Link href="/delete-account">{language("delete")}</Link>
+        {/* <Link href="/delete-account">{language("delete")}</Link> */}
       </div>
     </StyledFooter>
   );

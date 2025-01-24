@@ -5,13 +5,13 @@ export const StyledMainSection = styled.section`
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 88vh;
+  height: 44vh;
   background-color: #2c2c2c;
   color: #fff;
   text-align: center;
   font-size: 1rem
   h1 {
-    padding: 1em;
+    padding: 1em 2em;
   }
 
   @media (min-width: 768px) {
