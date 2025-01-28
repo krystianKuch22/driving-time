@@ -35,9 +35,13 @@ export const StyledContactForm = styled.form`
     display: flex;
     flex-direction: column;
     width: 100%;
+    h2 {
+      text-align: left;
+      margin-bottom: 1em;
+    }
   }
 
-  button{
+  button {
     background: none;
     border: none;
     background-color: #0c0c0c;
@@ -46,10 +50,9 @@ export const StyledContactForm = styled.form`
     color: #fff;
   }
   @media (min-width: 768px) {
-    
   }
-  
+
   @media (min-width: 1200px) {
-      width: 70%;
+    width: 70%;
   }
 `;

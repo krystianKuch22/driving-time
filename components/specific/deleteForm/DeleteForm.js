@@ -16,28 +16,30 @@ export default function DeleteForm() {
   };
   return (
     <StyledDeleteForm action="POST">
-      <h1>Usuń konto</h1>
-      <label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="E-mail"
-          value={formData.email}
-          onChange={handleChange}
-        />
-      </label>
-      <label>
-        <input
-          type="password"
-          id="password"
-          name="password"
-          placeholder="Hasło"
-          value={formData.pass}
-          onChange={handleChange}
-        />
-      </label>
-      <button type="submit">Usuń konto</button>
+      <div className="accountDelete">
+        <h1>Usuń konto</h1>
+        <label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="E-mail"
+            value={formData.email}
+            onChange={handleChange}
+          />
+        </label>
+        <label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Hasło"
+            value={formData.pass}
+            onChange={handleChange}
+          />
+        </label>
+        <button type="submit">Usuń konto</button>
+      </div>
     </StyledDeleteForm>
   );
 }

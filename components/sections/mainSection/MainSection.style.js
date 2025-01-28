@@ -5,8 +5,9 @@ export const StyledMainSection = styled.section`
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 60vh;
-  padding-top: 5em;
+  height: 80%;
+  padding: 8em 1em;
+  padding-top: 15em;
   background-color: #2c2c2c;
   color: #fff;
   text-align: center;
@@ -16,6 +17,7 @@ export const StyledMainSection = styled.section`
   }
 
   @media (min-width: 768px) {
+    padding-top: 10em;
     font-size: 2rem;
   }
 

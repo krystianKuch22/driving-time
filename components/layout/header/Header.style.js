@@ -5,7 +5,7 @@ position: fixed;
 width: 100%;
 background-color: black;
 padding: 2em 1em;
-height: ${props => props.$isOpen ? "100vh" : "12vh"};
+height: ${props => props.$isOpen ? "100%" : "12%"};
 border-bottom: solid 2px #fff;
 transition: height 1s;
 
