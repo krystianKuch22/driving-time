@@ -30,7 +30,20 @@ export const StyledDeleteForm = styled.form`
     border-radius: 8px;
     color: #fff;
   }
+
+  .accountDelete {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1em;
+
+    h1 {
+      text-align: left;
+    }
+  }
+
   @media (min-width: 768px) {
+    width: 80%;
   }
 
   @media (min-width: 1200px) {
