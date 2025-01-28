@@ -1,8 +1,15 @@
 import { useLanguage } from "@/hooks/useLanguage";
 import { StyledPolicySection } from "./PolicySection.style";
+import LoadingScreen from "@/components/layout/loading/LoadingScreen";
 
 export default function PolicySection() {
-  const { t, changeLanguage, language } = useLanguage("policyPrivacy");
+  const { t, loading } = useLanguage("policyPrivacy");
+
+  if(loading){
+    console.log(first)
+    return <LoadingScreen $loading={loading}/>
+  }
+
   return (
     <StyledPolicySection>
       <h1>{t("policyH1").toUpperCase()}</h1>
