@@ -46,7 +46,7 @@ export default async function handler(req, res) {
 
             
     <a href="https://apps.apple.com/pl/app/driving-time/id6741388363?itscg=30200&itsct=apps_box_badge&mttnsubad=6741388363" style="display: inline-block;">
-    <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1738540800" alt="Download on the App Store" style="width: 246px; height: 82px; vertical-align: middle; object-fit: contain;" />
+    <img src="https://driving-time-git-featured-krystians-projects-d99f5250.vercel.app/icons/appStore.png" alt="Download on the App Store" style="width: 246px; height: 82px; vertical-align: middle; object-fit: contain;" />
     </a>
     
         </td>
