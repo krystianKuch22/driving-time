@@ -1,17 +1,22 @@
 import { useLanguage } from "@/hooks/useLanguage";
 import { StyledPolicySection } from "./PolicySection.style";
 import LoadingScreen from "@/components/layout/loading/LoadingScreen";
+import { useEffect } from "react";
 
 export default function PolicySection() {
   const { t, loading } = useLanguage("policyPrivacy");
 
-  if(loading){
-    console.log(first)
-    return <LoadingScreen $loading={loading}/>
-  }
+  useEffect(() => {
+    if (loading) {
+      document.body.style.overflow = "hidden";
+    } else {
+      setTimeout(() => (document.body.style.overflow = ""), 1000);
+    }
+  }, [loading]);
 
   return (
     <StyledPolicySection>
+      <LoadingScreen loading={loading} />
       <h1>{t("policyH1").toUpperCase()}</h1>
       <p>
         <strong>{t("paragraph1").nameApp}</strong>

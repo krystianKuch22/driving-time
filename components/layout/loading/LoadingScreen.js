@@ -1,6 +1,6 @@
 import { StyledLoadingScreen } from "./LoadingScreen.style";
 
-export default function LoadingScreen(){
+export default function LoadingScreen({loading}){
     console.log("loading")
-    return <StyledLoadingScreen/>
+    return <StyledLoadingScreen $loading={loading}/>
 }

@@ -1,15 +1,17 @@
-import { useLanguageContext } from '@/context/LanguageContext';
-import { useEffect, useState } from 'react';
-
+import { useLanguageContext } from "@/context/LanguageContext";
+import { useEffect, useState } from "react";
 
 export const useLanguage = (namespace) => {
   const { language, loadNamespace } = useLanguageContext();
   const [namespaceTranslations, setNamespaceTranslations] = useState({});
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchTranslations = async () => {
+      setLoading(true);
       const data = await loadNamespace(namespace);
       setNamespaceTranslations(data);
+      setLoading(false);
     };
 
     fetchTranslations();
@@ -19,5 +21,5 @@ export const useLanguage = (namespace) => {
     return namespaceTranslations[key] || key; // Zwraca klucz, jeśli brak tłumaczenia
   };
 
-  return { t, language };
+  return { t, language, loading };
 };

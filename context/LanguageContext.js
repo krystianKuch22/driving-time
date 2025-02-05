@@ -14,9 +14,9 @@ export const LanguageProvider = ({ children }) => {
 
   // Funkcja do ładowania tłumaczeń dla danego namespace
   const loadNamespace = async (namespace) => {
-    if (translations[namespace]) {
-      return translations[namespace]; // Zwróć już załadowane tłumaczenia
-    }
+    // if (translations[namespace]) {
+    //   return translations[namespace]; // Zwróć już załadowane tłumaczenia
+    // }
 
     setLoading(true)
 
