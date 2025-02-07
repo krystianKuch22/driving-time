@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect } from "react";
+import React, { createContext, useContext, useState} from "react";
 import { useRouter } from "next/router";
 
 const LanguageContext = createContext();
@@ -6,19 +6,19 @@ const LanguageContext = createContext();
 export const LanguageProvider = ({ children }) => {
   const router = useRouter();
   const { locale } = router; // Pobiera aktualny język z URL
-  const [language, setLanguage] = useState(locale || "pl" ); // Domyślny język
+  const [language, setLanguage] = useState(locale || "pl"); // Domyślny język
   const [translations, setTranslations] = useState({}); // Przechowywane tłumaczenia
   const [loading, setLoading] = useState(true);
 
-  console.log(locale)
+  console.log(locale);
 
   // Funkcja do ładowania tłumaczeń dla danego namespace
   const loadNamespace = async (namespace) => {
-    // if (translations[namespace]) {
-    //   return translations[namespace]; // Zwróć już załadowane tłumaczenia
-    // }
+    if (translations[namespace]) {
+      return translations[namespace]; // Zwróć już załadowane tłumaczenia
+    }
 
-    setLoading(true)
+    setLoading(true);
 
     try {
       const response = await fetch(`/locales/${language}/${namespace}.json`);
@@ -29,7 +29,7 @@ export const LanguageProvider = ({ children }) => {
         [namespace]: data,
       }));
 
-      setLoading(false)
+      setLoading(false);
 
       return data;
     } catch (error) {

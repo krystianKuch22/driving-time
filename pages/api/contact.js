@@ -25,38 +25,10 @@ export default async function handler(req, res) {
         to: process.env.EMAIL_USER, // Twój adres e-mail (odbiorca)
         subject: `New Contact Form Submission from ${name}`,
         text: message, // Treść wiadomości
-        html: `<body style="font-family: 'Poppins', Arial, sans-serif">
-    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <td class="body" style="padding: 40px; text-align: left; font-size: 14px; line-height: 1.6;">
-            Cześć! <br>
-            
-            $welcomeMessage <br>
-            Logując się akceptujesz 
-                <a href="https://www.drivingtime.eu/terms-of-use">regulamin</a>
-            oraz
-                <a href="https://www.drivingtime.eu/privacy-policy">politykę prywatności</a>
-            . <br><br>
-                        
-            Dane do logowania: <br>
-            Login: $email <br>
-            Hasło: $password <br><br>
-                        
-            Pozdrawiamy, <br>
-            Zespół Driving Time
-
-            
-    <a href="https://apps.apple.com/pl/app/driving-time/id6741388363?itscg=30200&itsct=apps_box_badge&mttnsubad=6741388363" style="display: inline-block;">
-    <img src="https://driving-time-git-featured-krystians-projects-d99f5250.vercel.app/icons/appStore.png" alt="Download on the App Store" style="width: 246px; height: 82px; vertical-align: middle; object-fit: contain;" />
-    </a>
-    
-        </td>
-    </table>
-</body>`,
-
-        /*`<p><strong>Name:</strong> ${name}</p>
+        html: `<p><strong>Name:</strong> ${name}</p>
                <p><strong>Email:</strong> ${email}</p>
                <p><strong>Message:</strong></p>
-               <p>${message}</p>`, // Opcjonalnie: HTML wiadomości */
+               <p>${message}</p>`, // Opcjonalnie: HTML wiadomości
       });
 
       res.status(200).json({ message: "Message sent successfully!" });

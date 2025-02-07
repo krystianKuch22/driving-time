@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const StyledLoadingScreen = styled.div`
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
-  transition: all 2s;
+  width: 100%;
+  height: 100%;
+  transition: all 1s;
   background-color: black;
 
   ${(props) => {
