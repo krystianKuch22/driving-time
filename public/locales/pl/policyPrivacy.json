@@ -1,6 +1,6 @@
 {
   "privacyPolicy": "Polityka prywatności",
-  "policyH1": "polityka prywatności dla aplikacji mobilnej",
+  "policyH1": "polityka prywatności",
 
   "paragraph1": {
     "nameApp": "Aplikacja Driving Time",
@@ -8,7 +8,7 @@
     "application": "„Aplikacja”)",
     "mainPart": "umożliwia prowadzenie rejestru instruktorów i kursantów, przygotowywanie harmonogramów zajęć kursantów oraz instruktorów, kalendarza dostępnych terminów oraz umawianie kolejnych zajęć."
   },
-  "paragraph2": "W związku z zainstalowaniem przez Ciebie Aplikacji na urządzeniu mobilnym dochodzi do zawarcia, pomiędzy Tobą, a dostawcą Aplikacji, umowy o świadczenie usług drogą elektroniczną w rozumieniuprzepisów ustawy z dnia 18 lipca 2002 r. o świadczeniu usług drogą elektroniczną. Niniejsza Politykaprywatności ma na celu przekazanie Ci informacji w jaki sposób w związku z tym przetwarzane są Twojedane osobowe, jak również w jaki sposób przetwarzane są Twoje dane osobowe w związku zprowadzeniem przez nas działań marketingowych.",
+  "paragraph2": "W związku z zainstalowaniem przez Ciebie Aplikacji na urządzeniu dochodzi do zawarcia, pomiędzy Tobą, a dostawcą Aplikacji, umowy o świadczenie usług drogą elektroniczną w rozumieniu przepisów ustawy z dnia 18 lipca 2002 r. o świadczeniu usług drogą elektroniczną. Niniejsza Polityka prywatności ma na celu przekazanie Ci informacji w jaki sposób w związku z tym przetwarzane są Twoje dane osobowe, jak również w jaki sposób przetwarzane są Twoje dane osobowe w związku z prowadzeniem przez nas działań marketingowych.",
   "paragraph3": {
     "firstPart": "Polityka prywatności służy przekazaniu Ci informacji, o których mowa w art. 13 rozporządzenia  Parlamentu Europejskiego i Rady  (UE) 2016/679  z  dnia 27  kwietnia 2016  r. w sprawie  ochrony  osób fizycznych w związku z przetwarzaniem danych osobowych  i  w  sprawie  swobodnego przepływu  takich  danych  oraz uchylenia  dyrektywy  95/46/WE  (ogólne  rozporządzenie  o  ochronie danych), zwanego dalej",
     "rodo": "„RODO”.",
@@ -18,7 +18,7 @@
   "paragraph4": "Administratorem Twoich danych osobowych jest firma Limba App Marcin Zglinicki, ul. Wiosenna 16 95-054 Ksawerów, NIP 7311993314, REGON 101669653, e-mail: mzglinicki.96@gmail.com. ",
   "paragraph5": "We wszelkich kwestiach dotyczących ochrony danych osobowych możesz się skontaktować z nami mailowo na adres: mzglinicki.96@gmail.com lub listownie na adres: ul Wiosenna 16, 95-054 Ksawerów.",
   "howCare": "Jak dbamy o bezpieczeństwo Twoich danych osobowych?",
-  "point1": "Twoje dane osobowe przetwarzane są zgodnie z RODO oraz innymi aktualnie obowiązującymiprzepisami prawa o ochronie danych osobowych.",
+  "point1": "Twoje dane osobowe przetwarzane są zgodnie z RODO oraz innymi aktualnie obowiązującymi przepisami prawa o ochronie danych osobowych.",
   "point2": "Stosujemy, wymagane przez przepisy prawa krajowego oraz unijnego środki techniczne i organizacyjne zapewniające ochronę przetwarzanych danych osobowych i zabezpieczenie danych osobowych przed ich udostępnieniem osobom nieupoważnionym, przejęciem przez osoby nieuprawnione, przetwarzaniem z naruszeniem przepisów oraz zmianą, utratą lub zniszczeniem",
   "point3": "Podanie danych osobowych jest dobrowolne, ale konieczne dla korzystania z wymagających tego funkcjonalności Aplikacji.",
   "point4": "W sytuacji gdy podstawą przetwarzania danych osobowych jest zgoda, jej brak uniemożliwi nam podjęcie działania, którego ta zgoda dotyczy. Wyrażoną zgodę możesz cofnąć w każdej chwili, jednakże nie będzie to miało wpływu na zgodność z prawem przetwarzania przez nas Twoich danych osobowych, którego dokonaliśmy na podstawie zgody przed jej cofnięciem.",
@@ -48,11 +48,11 @@
     "part2": "Przysługuje Ci uprawnienie do:"
   },
   "rightsListA": "dostępu do Twoich danych osobowych oraz prawo żądania ich sprostowania, usunięcia i ograniczenia przetwarzania. W zakresie, w jakim podstawą przetwarzania jest przesłanka naszego prawnie uzasadnionego interesu masz prawo wniesienia sprzeciwu wobec przetwarzania Twoich danych osobowych,",
-  "rightsListB": "w zakresie, w jakim podstawą przetwarzania Twoich danych osobowych jest zgoda, masz prawo do wycofania zgody. Wycofanie zgody nie ma wpływu na zgodność z prawem przetwarzania dokonanego na podstawie zgody przez jej wycofaniem,",
+  "rightsListB": "w zakresie, w jakim podstawą przetwarzania Twoich danych osobowych jest zgoda, masz prawo do wycofania zgody. Wycofanie zgody nie ma wpływu na zgodność z prawem przetwarzania dokonanego na podstawie zgody przed jej wycofaniem,",
   "rightsListC": "w zakresie, w jakim podstawą przetwarzania Twoich danych osobowych jest zgoda lub umowa, przysługuje Ci także prawo do przenoszenia Twoich danych, tj. żądanie otrzymania od nas Twoich danych osobowych, w ustrukturyzowanym, powszechnie stosowanym formacie,",
   "rightsListD": "wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych (ul. Stawki 2, 00-193 Warszawa), w każdym przypadku gdy uznasz, że przetwarzanie danych osobowych narusza Twoje prawa.",
   "whoShare": "Komu udostępniamy Twoje dane osobowe?",
-  "paragraph14": "Pobierając naszą Aplikację za pośrednictwem Google Play lub App Store, przekazujesz dostawcom tych platform określone informacje, w szczególności dane dotyczące Twojego konta, np. imię i nazwisko, identyfikator urządzenia i adres e-mail. Nie mamy wpływu na gromadzenie tych danych i nie mamy do nich żadnego dostępu. Szczegółowe informacje znajdziesz w polityce prywatności aplikacji Google Play lub App Store.",
+  "paragraph14": "Pobierając naszą Aplikację za pośrednictwem Google Play, App Store lub Microsoft Store, przekazujesz dostawcom tych platform określone informacje, w szczególności dane dotyczące Twojego konta, np. imię i nazwisko, identyfikator urządzenia i adres e-mail. Nie mamy wpływu na gromadzenie tych danych i nie mamy do nich żadnego dostępu. Szczegółowe informacje znajdziesz w polityce prywatności aplikacji Google Play, App Store lub Microsoft Store.",
   "paragraph15": "Twoje dane osobowe mogą być przekazywane podmiotom uprawnionym do uzyskania danych osobowych na podstawie przepisów prawa, a także podmiotom, którym powierzamy dane na podstawie umów, dotyczących świadczenia usług związanych z funkcjonowaniem naszej Aplikacji m.in. usług hostingowych, usług marketingowych i dostawy systemów IT. Twoje dane osobowe przekazywać możemy również dostawcom narzędzi służących do: prowadzenia badań analitycznych, tworzenia statystyk, śledzenia pobrań Aplikacji, automatyzacji marketingu.",
   "paragraph16": "Niektóre podmioty świadczące dla nas usługi mogą przechowywać Twoje dane poza Europejskim Obszarem Gospodarczym. W takich sytuacjach Twoje dane będą przekazane wyłącznie do państw, które zapewniają adekwatny stopień ochrony, a do państw, które nie zapewniają adekwatnego stopnia ochrony, jedynie w przypadku zapewnienia odpowiednich zabezpieczeń, w tym m.in. na podstawie standardowych klauzul umownych przyjętych przez Komisję Europejską."
 }
