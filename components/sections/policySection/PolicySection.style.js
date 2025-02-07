@@ -39,4 +39,16 @@ export const StyledPolicySection = styled.section`
     padding: 0;
     width: 100%;
   }
+
+  h1{
+    padding: 1em 0;
+  }
+
+  h2{
+    padding: 1em 0;
+  }
+
+  h3{
+    padding: 1em 0;
+  }
 `;
