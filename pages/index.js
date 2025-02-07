@@ -11,16 +11,17 @@ export default function Home() {
   const { t, loading } = useLanguage("common");
   const { changeLanguage } = useLanguageContext();
 
-  if(loading){
-    return <LoadingScreen $loading={loading}/>
-  }
+  // if(loading){
+  //   return <LoadingScreen $loading={loading}/>
+  // }
 
   return (
     <>
-      <Header/>
-      <MainSection/>
-      <ContactSection/>
-      <Footer language={t}/>
+      <LoadingScreen loading={loading} />
+      <Header />
+      <MainSection />
+      <ContactSection />
+      <Footer language={t} />
 
       {/* <button onClick={() => changeLanguage("pl")}>Polski</button>
       <button onClick={() => changeLanguage("en")}>English</button>

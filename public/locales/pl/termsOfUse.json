@@ -1,47 +1,84 @@
 {
   "termsOfUse": "Regulamin",
-  "termsOfUseH1": "Regulamin aplikacji mobilnej",
-  "paragraph1": "Niniejszy dokument określa zasady i warunki korzystania z aplikacji mobilnej ……………….. 1 (dalej jako \"Aplikacja\"), a także zasady i warunki świadczenia w ramach Aplikacji usług drogą elektroniczną przez ……………………………………2 , e-mail: …………………….. 3 , tel. …………………………. 4 (dalej jako „Usługodawca”).",
+  "termsOfUseH1": "Regulamin aplikacji",
+  "paragraph1": {
+    "part1": "Niniejszy dokument określa zasady i warunki korzystania z aplikacji",
+    "nameApp": "Driving Time",
+    "part2": "(dalej jako",
+    "App": "\"Aplikacja\"",
+    "part3": "), a także zasady i warunki świadczenia w ramach Aplikacji usług drogą elektroniczną przez Limba App Marcin Zglinicki, ul. Wiosenna 16, 95-054 Ksawerów, NIP 7311993314, REGON 101669653, e-mail: mzglinicki.96@gmail.com, tel. 514864368 (dalej jako „",
+    "service": "Usługodawca",
+    "part4": "”)."
+  },
+  
   "definitionsH3": "Definicje",
   "definitionsList1": "Użyte w Regulaminie pojęcia oznaczają odpowiednio:",
-  "usedDefinitionsList1A": "Regulamin – niniejszy regulamin świadczenia usług drogą elektroniczną;",
-  "usedDefinitionsList1B": "Usługodawca – ………………………5, e-mail: ……………….., tel. ………………………….;",
-  "usedDefinitionsList1C": "Użytkownik - osoba fizyczna korzystająca z Aplikacji, będąca Konsumentem i posiadająca pełną zdolność do czynności prawnych;",
-  "usedDefinitionsList1D": "Konsument – osoba fizyczna korzystająca z Aplikacji w celu niezwiązanym bezpośrednio z jej działalnością gospodarczą lub zawodową;",
-  "usedDefinitionsList1E": "Aplikacja – oprogramowanie pod nazwą ……………………. 6, udostępniane Użytkownikowi za pośrednictwem Google Play lub App Store, przeznaczone do instalacji w pamięci Urządzenia mobilnego;",
-  "usedDefinitionsList1F": "Usługi elektroniczne - usługi świadczone przez Usługodawcę na rzecz Użytkowników drogą elektroniczną w rozumieniu przepisów ustawy z dnia 18 lipca 2002 r. o świadczeniu usług drogą elektroniczną;",
-  "usedDefinitionsList1G": "Urządzenie mobilne – urządzenie pozwalające na korzystanie z Aplikacji, w szczególności telefon komórkowy (typu smartfon) lub tablet, działające w oparciu o system operacyjny Android lub iOS;",
-  "usedDefinitionsList1H": "Umowa o świadczenie Usług elektronicznych - umowa o świadczenie usług drogą elektroniczną w rozumieniu przepisów ustawy z dnia 18 lipca 2002 r. o świadczeniu usług drogą elektroniczną zawierana pomiędzy Usługodawcą, a Użytkownikiem na podstawie Regulaminu, w drodze jego akceptacji przez Użytkownika;",
+  "usedDefinitionsList1A": {
+    "part1": "Regulamin",
+    "part2": "niniejszy regulamin świadczenia usług drogą elektroniczną;"
+  },
+  "usedDefinitionsList1B": {
+    "part1": "Usługodawca",
+    "part2": "Limba App Marcin Zglinicki, ul. Wiosenna 16, 95-054 Ksawerów, NIP 7311993314, REGON 101669653, e-mail: mzglinicki.96@gmail.co, tel. 514864368;"
+  },
+  "usedDefinitionsList1C": {
+    "part1": "Użytkownik",
+    "part2": "osoba fizyczna korzystająca z Aplikacji, będąca Konsumentem i posiadająca pełną zdolność do czynności prawnych;"
+  },
+  "usedDefinitionsList1D": {
+    "part1": "Konsument",
+    "part2": "osoba fizyczna korzystająca z Aplikacji w celu niezwiązanym bezpośrednio z jej działalnością gospodarczą lub zawodową;"
+  },
+  "usedDefinitionsList1E": {
+    "part1": "Aplikacja",
+    "part2": "oprogramowanie pod nazwą Driving Time, udostępniane Użytkownikowi za pośrednictwem Google Play lub App Store, przeznaczone do instalacji w pamięci Urządzenia mobilnego;"
+  },
+  "usedDefinitionsList1F": {
+    "part1": "Usługi elektroniczne",
+    "part2": "usługi świadczone przez Usługodawcę na rzecz Użytkowników drogą elektroniczną w rozumieniu przepisów ustawy z dnia 18 lipca 2002 r. o świadczeniu usług drogą elektroniczną;"
+  },
+  "usedDefinitionsList1G": {
+    "part1": "Urządzenie mobilne",
+    "part2": "urządzenie pozwalające na korzystanie z Aplikacji, w szczególności telefon komórkowy (typu smartfon) lub tablet, działające w oparciu o system operacyjny Android lub iOS;"
+  },
+  "usedDefinitionsList1H": {
+    "part1": "Umowa o świadczenie Usług elektronicznych",
+    "part2": "umowa o świadczenie usług drogą elektroniczną w rozumieniu przepisów ustawy z dnia 18 lipca 2002 r. o świadczeniu usług drogą elektroniczną zawierana pomiędzy Usługodawcą, a Użytkownikiem na podstawie Regulaminu, w drodze jego akceptacji przez Użytkownika;"
+  },
+  
   "genralStateH3": "Postanowienia ogólne",
   "generalStateList1": "Niniejszy Regulamin określa w szczególności rodzaje i zakres Usług elektronicznych świadczonych przez Usługodawcę w ramach Aplikacji, warunki świadczenia Usług elektronicznych, warunki zawierania i rozwiązywania Umowy o świadczenie Usług elektronicznych, a także tryb postępowania reklamacyjnego.",
   "generalStateList2": "Użytkownik rozpoczynając korzystanie z Aplikacji potwierdza zapoznanie się i zaakceptowanie niniejszego Regulaminu. Potwierdzenie zapoznania się i zaakceptowania Regulaminu jest dobrowolne, jednakże jest warunkiem dalszego korzystania z Aplikacji.",
   "generalStateList3": "Aplikacja przeznaczona jest dla Konsumentów, posiadających pełną zdolność do czynności prawnych.",
   "generalStateList4": "Komunikacja z Usługodawcą dokonywana przez Użytkownika powoduje ponoszenie przez Użytkownika kosztów, jakie wynikają z umów zawartych przez niego z podmiotami trzecimi, za możliwość korzystania z określonych form komunikacji na odległość. Usługodawca nie pobiera żadnych dodatkowych opłat ani świadczeń za możliwość komunikowania się z nim.",
   "generalStateList5": "Użytkownik we własnym zakresie pokrywa koszty transmisji danych niezbędnych do pobrania i instalacji Aplikacji, zgodnie z umowami zawartymi przez Użytkownika z operatorem telekomunikacyjnym lub innym dostawcą Internetu.",
+
   "technicalH3": "Wymagania techniczne i funkcjonalności aplikacji",
-  "technicalList1": "Aplikacja umożliwia Użytkownikowi korzystanie z Usług świadczonych drogą elektroniczną w ramach Aplikacji, pozwalających Użytkownikowi w szczególności na ………………………. 7",
+  "technicalList1": "Aplikacja umożliwia Użytkownikowi korzystanie z Usług świadczonych drogą elektroniczną w ramach Aplikacji, pozwalających Użytkownikowi w szczególności na prowadzenie rejestru instruktorów i kursantów szkół jazdy, przygotowywanie harmonogramów jazd kursantów i instruktorów, kalendarza dostępności terminów oraz zdalne umawianie kolejnych lekcji jazdy",
   "technicalList2": "Wymagania techniczne niezbędne do korzystania z Aplikacji:",
-  "technicalList2A": "Urządzenie mobilne umożliwiające pobranie i korzystanie z Aplikacji, działające w oparciu o system operacyjny Android w wersji nie niższej niż ...... lub iOS w wersji nie niższej niż .....",
+  "technicalList2A": "Urządzenie mobilne umożliwiające pobranie i korzystanie z Aplikacji, działające w oparciu o system operacyjny Android w wersji nie niższej niż API 30 lub iOS w wersji nie niższej niż 15.3 ",
   "technicalList2B": "dostęp do sieci Internet.",
-  "technicalList3": "W celu zainstalowania Aplikacji na Urządzeniu mobilnym, Użytkownik pobiera Aplikację za pośrednictwem Google Play dla systemu Android lub App Store dla systemu iOS. Pobranie Aplikacji może wymagać skorzystania z przeglądarki internetowej lub aplikacji Google Play/App Store na Urządzeniu mobilnym.",
+  "technicalList3": "W celu zainstalowania Aplikacji na Urządzeniu mobilnym, Użytkownik pobiera Aplikację za pośrednictwem Google Play dla systemu Android lub App Store dla systemu iOS. Pobranie Aplikacji może wymagać skorzystania z przeglądarki internetowej lub aplikacji Google Play/App Store na Urządzeniu mobilnym. ",
   "technicalList4": "Użytkownik może zainstalować Aplikację na Urządzeniu mobilnym, postępując zgodnie ze wskazówkami wyświetlanymi na ekranie Urządzenia mobilnego w trakcie instalacji. ",
   "technicalList5": "Zakazuje się Użytkownikom dostarczania treści o charakterze bezprawnym, naruszających prawo lub dobre obyczaje, a także stanowiących złośliwe oprogramowanie zakłócające funkcjonowanie Aplikacji (w szczególności wirusy, konie trojańskie, skrypty i oprogramowanie zmieniające lub niszczące kod Aplikacji) lub przechwytujące dane dostępne w Aplikacji, do których nie mają praw.",
-  "technicalList6": "Zakazane jest korzystanie przez Użytkownika z Aplikacji w sposób sprzeczny z prawem, niniejszym Regulaminem, dobrymi obyczajami obowiązującymi w społeczeństwie informacyjnym, a także w sposób naruszający uzasadnione interesy Usługodawcy.",
+  "technicalList6": "Zakazane jest korzystanie przez Użytkownika z Aplikacji w sposób sprzeczny z prawem, niniejszym Regulaminem, dobrymi obyczajami obowiązującymi w społeczeństwie informacyjnym, a także w sposób naruszający uzasadnione interesy Usługodawcy. ",
   "technicalList7": "Wszelkie elementy graficzne Aplikacji, zastosowane w nich rozwiązania techniczne, elementy treści, jak i sposób w jaki elementy graficzne i kontent są przedstawione (układ), jak również oprogramowanie, bazy danych i inne materiały umieszczone w ramach Aplikacji, stanowią przedmiot własności intelektualnej, w tym w szczególności prawa autorskiego i prawa własności przemysłowej Usługodawcy i podlegają ochronie zgodnie z powszechnie obowiązującymi przepisami prawa.",
+
   "usingH3": "Korzystanie z aplikacji",
   "usingList1": "W momencie zainstalowania Aplikacji i akceptacji Regulaminu dochodzi do zawarcia na czas nieoznaczony Umowy o świadczenie Usług elektronicznych.",
   "usingList2": "Użytkownik może w dowolnej chwili rozwiązać Umowę o świadczenie Usług elektronicznych i zaprzestać korzystania z Aplikacji poprzez jej usunięcie z Urządzenia mobilnego w sposób standardowy dla danej wersji systemu operacyjnego zainstalowanego na Urządzeniu mobilnym.",
-  "usingList3": "Użytkownik będący Konsumentem może również od Umowy o świadczenie Usług elektronicznych odstąpić, bez podawania przyczyny, w terminie 14 dni od dnia zawarcia umowy, na zasadach określonych w ustawie z dnia 30 maja 2014 r. o prawach konsumenta, poprzez poinformowanie Usługodawcy o swojej decyzji o odstąpieniu od umowy w drodze jednoznacznego oświadczenia. Użytkownik może skorzystać z formularza oświadczenia o odstąpieniu od umowy stanowiącego Załącznik nr 1 do niniejszego Regulaminu, jednak nie jest to obowiązkowe. W tym przypadku Użytkownik powinien usunąć Aplikację z Urządzenia mobilnego w sposób standardowy dla danejwersji systemu operacyjnego zainstalowanego na Urządzeniu mobilnym.",
-  "usingList4": "Z uwagi na stały rozwój technologii, zmieniające się przepisy prawa, w zakresie mającym wpływ na działanie Aplikacji, a także zamiar ciągłego rozwijania i udoskonalania Aplikacji, Usługodawca może zmieniać (w tym rozbudowywać, dodawać nowe lub wycofywać dotychczasowe) funkcjonalności Aplikacji. Takie zmiany dostępne będą dla Użytkownika wyłącznie po zainstalowaniu aktualizacji Aplikacji, wskazującej zakres wprowadzonych zmian, dostępnej dla Użytkownika w Google Play lub App Store.",
-  "usingList5": "Instalowanie cyklicznych aktualizacji Aplikacji, dostarczanych przez Usługodawcę, może być również konieczne dla prawidłowego i bezpiecznego działania Aplikacji. Usługodawca informuje Użytkowników o takich aktualizacjach za pośrednictwem opisu aktualizacji dostępnego w Google Play lub App Store.",
-  "usingList6": "Usługodawca może rozwiązać Umowę o świadczenie Usług elektronicznych za pośrednictwem Aplikacji i wycofać Aplikację, po uprzednim poinformowaniu Użytkowników za pośrednictwem strony internetowej …………………8 , z ważnych powodów jakimi są w szczególności:",
+  "usingList3": "Użytkownik będący Konsumentem może również od Umowy o świadczenie Usług elektronicznych odstąpić, bez podawania przyczyny, w terminie 14 dni od dnia zawarcia umowy, na zasadach określonych w ustawie z dnia 30 maja 2014 r. o prawach konsumenta, poprzez poinformowanie Usługodawcy o swojej decyzji o odstąpieniu od umowy w drodze jednoznacznego oświadczenia. Użytkownik może skorzystać z formularza oświadczenia o odstąpieniu od umowy stanowiącego Załącznik nr 1 do niniejszego Regulaminu, jednak nie jest to obowiązkowe. W tym przypadku Użytkownik powinien usunąć Aplikację z Urządzenia mobilnego w sposób standardowy dla danej wersji systemu operacyjnego zainstalowanego na Urządzeniu mobilnym.",
+  "usingList4": "Z uwagi na stały rozwój technologii, zmieniające się przepisy prawa, w zakresie mającym wpływ na działanie Aplikacji, a także zamiar ciągłego rozwijania i udoskonalania Aplikacji, Usługodawca może zmieniać (w tym rozbudowywać, dodawać nowe lub wycofywać dotychczasowe) funkcjonalności Aplikacji. Takie zmiany dostępne będą dla Użytkownika wyłącznie po zainstalowaniu aktualizacji Aplikacji, wskazującej zakres wprowadzonych zmian, dostępnej dla Użytkownika w Google Play, App Store lub Microsoft Store.",
+  "usingList5": "Instalowanie cyklicznych aktualizacji Aplikacji, dostarczanych przez Usługodawcę, może być również konieczne dla prawidłowego i bezpiecznego działania Aplikacji. Usługodawca informuje Użytkowników o takich aktualizacjach za pośrednictwem opisu aktualizacji dostępnego w Google Play, App Store lub Microsoft Store.",
+  "usingList6": "Usługodawca może rozwiązać Umowę o świadczenie Usług elektronicznych za pośrednictwem Aplikacji i wycofać Aplikację, po uprzednim poinformowaniu Użytkowników za pośrednictwem wiadomości e-mail, z ważnych powodów jakimi są w szczególności:",
   "usingList6A": "zmiana powszechnie obowiązujących przepisów prawa lub ich interpretacji stosowanej przez sądy lub organy władzy publicznej, mająca bezpośredni, istotny wpływ na Aplikację i uzasadniająca jej wycofanie,",
-  "usingList6B": "wydanie orzeczenia, decyzji, zalecenia lub innego podobnego aktu przez sąd lub uprawniony organ władzy publicznej, mającego bezpośredni wpływ na treść Aplikację i skutkującego koniecznością jej wycofania,",
+  "usingList6B": "wydanie orzeczenia, decyzji, zalecenia lub innego podobnego aktu przez sąd lub uprawniony organ władzy publicznej, mającego bezpośredni wpływ na treść Aplikacji i skutkującego koniecznością jej wycofania,",
   "usingList6C": "ekonomiczna nieopłacalność udostępniania Aplikacji,",
   "usingList7": "Usługodawca zobowiązany jest do zapewnienia prawidłowego i bezpiecznego działania Aplikacji. Bez uszczerbku dla tych zobowiązań Usługodawcy, Użytkownik we własnym zakresie zobowiązany jest do:",
   "usingList7A": "instalowania aktualizacji Aplikacji, zgodnie z ust. 5 powyżej,",
   "usingList7B": "zabezpieczenia Urządzenia mobilnego przed nieuprawnionym dostępem osób trzecich do Aplikacji,",
   "usingList7C": "zapewnienia bezpiecznego działania Urządzenia mobilnego, w szczególności poprzez: (i) korzystanie z oprogramowania antywirusowego; (ii) zachowanie ostrożności w czasie korzystania z Internetu; (iii) bieżące aktualizowanie systemu operacyjnego, zgodnie z zaleceniami producenta posiadanego Urządzenia mobilnego",
+  
   "licenseH3": "Licencja",
   "licenseList1": "Z chwilą instalacji Aplikacji Usługodawca udziela Użytkownikowi licencji na korzystanie z Aplikacji. Licencja ma charakter nieodpłatny, niewyłączny, nieprzenoszalny i nieograniczony terytorialnie.",
   "licenseList2": "Licencja udzielana jest na czas trwania Umowy o świadczenie Usług elektronicznych.",
@@ -51,15 +88,18 @@
   "licenseList4B": "wyodrębnieniem części składowych Aplikacji, a także jakimkolwiek ich modyfikowaniem, dekompilacją i dezasemblacją oraz ich użytkowaniem w oderwaniu od Aplikacji, ",
   "licenseList4C": "uzyskiwaniem informacji, w sposób inny niż od Usługodawcy, o wewnętrznej strukturze lub zasadach działania Aplikacji, ",
   "licenseList4D": "publikowaniem Aplikacji lub udostępnianiem jej osobom trzecim, w tym wynajmowaniem, wydzierżawianiem, użyczaniem lub przekazywaniem, w szczególności w celu skopiowania Aplikacji.",
+  
   "personalH3": "Dane osobowe",
-  "paragraph2": "Szczegółowe informacja dotyczące zbierania i przetwarzania danych osobowych w związku z korzystaniem z Aplikacji reguluje Polityka Prywatności.",
+  "paragraph2": "Szczegółowe informacje dotyczące zbierania i przetwarzania danych osobowych w związku z korzystaniem z Aplikacji reguluje Polityka Prywatności.",
+  
   "complaintH2": "Reklamacje",
   "complaintList1": "Użytkownik uprawniony jest do złożenia reklamacji z tytułu nieprawidłowego działania Aplikacji. Reklamacja może zostać złożona drogą mailową lub pisemnie na adres Usługodawcy.",
   "complaintList2": "W celu umożliwienia Usługodawcy rzetelnego rozpatrzenia reklamacji zaleca się, aby zawierała ona w swej treści dane osoby składającej reklamację (imię i nazwisko, adres korespondencyjny lub email), opis i powód reklamacji oraz treść żądania. W sytuacji, gdy podane w reklamacji dane lub informacje wymagają uzupełnienia, Usługodawca zwraca się, przed rozpatrzeniem reklamacji, do osoby, która wniosła reklamację, o ich uzupełnienie.",
-  "complaintList3": ". Usługodawca rozpatrzy reklamację w terminie nie dłuższym niż 14 dni od dnia jej otrzymania, informując Użytkownika niezwłocznie o jej wynikach drogą mailową lub pisemnie (w zależności od sposobu komunikacji wybranego przez Użytkownika).",
+  "complaintList3": "Usługodawca rozpatrzy reklamację w terminie nie dłuższym niż 14 dni od dnia jej otrzymania, informując Użytkownika niezwłocznie o jej wynikach drogą mailową lub pisemnie (w zależności od sposobu komunikacji wybranego przez Użytkownika).",
+  
   "endingH3": "Postanowienia końcowe",
-  "endingList1": "Użytkownicy mogą uzyskać dostęp do niniejszego Regulaminu w każdym czasie za pośrednictwem linku zamieszczonego w Aplikacji. Regulamin może zostać utrwalony, pozyskany i odtworzony poprzez jego wydrukowanie lub zapisanie go na odpowiednim nośniku danych. Regulamin dostępny jest również do pobrania w formacie PDF pod adresem: ………………………9",
-  "endingList2": "Postanowienia niniejszego Regulaminu nie mają na celu wyłączenia lub ograniczenia jakichkolwiek praw Konsumentów, przyznanych im na mocy bezwzględnie obowiązujących przepisów prawa, w tym w szczególności ustawy z dnia 30 maja 2014 r. o prawach konsumenta. W przypadku ewentualnej, niezamierzonej niezgodności Regulaminu z powyższymi przepisami, pierwszeństwo mają te przepisy i są one stosowane przez Usługodawcę",
+  "endingList1": "Użytkownicy mogą uzyskać dostęp do niniejszego Regulaminu w każdym czasie za pośrednictwem linku zamieszczonego w Aplikacji. Regulamin może zostać utrwalony, pozyskany i odtworzony poprzez jego wydrukowanie lub zapisanie go na odpowiednim nośniku danych.",
+  "endingList2": "Postanowienia niniejszego Regulaminu nie mają na celu wyłączenia lub ograniczenia jakichkolwiek praw Konsumentów, przyznanych im na mocy bezwzględnie obowiązujących przepisów prawa, w tym w szczególności ustawy z dnia 30 maja 2014 r. o prawach konsumenta. W przypadku ewentualnej, niezamierzonej niezgodności Regulaminu z powyższymi przepisami, pierwszeństwo mają te przepisy i są one stosowane przez Usługodawcę.",
   "endingList3": "Jeśli którekolwiek z postanowień niniejszego Regulaminu zostanie uznane za niezgodne z prawem, nieważne lub w inny sposób niewykonalne w zakresie przewidzianym przepisami prawa, to w tym zakresie zostaje ono wyłączone. W pozostałym zakresie Regulamin pozostaje w mocy.",
   "endingList4": "Usługodawca uprawniony jest do zmiany Regulaminu z następujących przyczyn:",
   "endingList4A": "konieczność dostosowania treści Regulaminu do nowych lub znowelizowanych przepisów prawnych lub ich interpretacji stosowanej przez sądy lub organy władzy publicznej, mających wpływ na treść Regulaminu,",
@@ -69,7 +109,7 @@
   "endingList4E": "zmiany w zakresie nazw, adresów, danych firmowych lub odnośników wskazanych w treści Regulaminu,",
   "endingList4F": "konieczność usprawnienia działania Aplikacji, przy czym zmiany te nie będą naruszać lub ograniczać uprawnień dotychczas nabytych przez Użytkowników,",
   "endingList4G": "wprowadzenie, usunięcie lub zmiana warunków świadczenia poszczególnych Usług elektronicznych w ramach Aplikacji, przy czym zmiany te nie będą naruszać lub ograniczać uprawnień dotychczas nabytych przez Użytkowników.",
-  "endingList5": "O dokonanej zmianie Regulaminu Usługodawca poinformuje poprzez zamieszczenie aktualnej wersji Regulaminu w Aplikacji, na 14 dni przed jej wejściem w życie. Jeżeli Użytkownik nie zgadza się na wprowadzone zmiany może zaprzestać korzystania z Aplikacji w dowolnej chwili oraz odinstalować ją z Urządzenia mobilnego i tym samym rozwiązując Umowę o świadczeni Usług elektronicznych. Dalsze korzystanie z Aplikacji oznacza akceptację zmian Regulaminu.",
+  "endingList5": "O dokonanej zmianie Regulaminu Usługodawca poinformuje poprzez zamieszczenie aktualnej wersji Regulaminu w Aplikacji, na 14 dni przed jej wejściem w życie. Jeżeli Użytkownik nie zgadza się na wprowadzone zmiany może zaprzestać korzystania z Aplikacji w dowolnej chwili oraz odinstalować ją z Urządzenia mobilnego i tym samym rozwiązując Umowę o świadczeniu Usług elektronicznych. Dalsze korzystanie z Aplikacji oznacza akceptację zmian Regulaminu.",
   "endingList6": "Niniejszy Regulamin podlega prawu polskiemu oraz zostaje poddany jurysdykcji sądów polskich. Wybór prawa polskiego nie pozbawia Konsumenta ochrony przyznanej mu na podstawie przepisów, których nie można wyłączyć w drodze umowy, na mocy prawa jakie byłoby właściwe w razie braku wyboru prawa.",
   "endingList7": "Użytkownik będący Konsumentem ma możliwość skorzystania z pozasądowego sposobu rozpatrzenia sporu poprzez: (i) zwrócenie się do stałego polubownego sądu konsumenckiego; (ii) mediację; (iii) zwrócenie się do Wojewódzkiego Inspektora Inspekcji Handlowej; (iv) zwrócenie się do Federacji Konsumentów. Konsument ma możliwość również skorzystania z platformy internetowego systemu rozstrzygania sporów pomiędzy konsumentami i przedsiębiorcami na szczeblu unijnym dostępnej pod adresem http://ec.europa.eu/consumers/odr (Platforma ODR).",
   "attachmentH3": "Załącznik 1 - Wzór formularza odstąpienia od umowy",

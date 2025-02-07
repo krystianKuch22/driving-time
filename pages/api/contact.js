@@ -1,17 +1,17 @@
-import nodemailer from 'nodemailer';
+import nodemailer from "nodemailer";
 
 export default async function handler(req, res) {
-  if (req.method === 'POST') {
+  if (req.method === "POST") {
     const { name, email, message } = req.body;
 
     // Prosta walidacja
     if (!name || !email || !message) {
-      return res.status(400).json({ message: 'All fields are required.' });
+      return res.status(400).json({ message: "All fields are required." });
     }
 
     // Konfiguracja transportera Nodemailer
     const transporter = nodemailer.createTransport({
-      service: 'gmail', // Możesz użyć innej usługi, np. 'outlook', 'yahoo'
+      service: "gmail", // Możesz użyć innej usługi, np. 'outlook', 'yahoo'
       auth: {
         user: process.env.EMAIL_USER, // Twój e-mail
         pass: process.env.EMAIL_PASS, // Hasło aplikacji lub hasło do SMTP
@@ -31,13 +31,13 @@ export default async function handler(req, res) {
                <p>${message}</p>`, // Opcjonalnie: HTML wiadomości
       });
 
-      res.status(200).json({ message: 'Message sent successfully!' });
+      res.status(200).json({ message: "Message sent successfully!" });
     } catch (error) {
       console.error(error);
-      res.status(500).json({ message: 'Failed to send message.' });
+      res.status(500).json({ message: "Failed to send message." });
     }
   } else {
-    res.setHeader('Allow', ['POST']);
+    res.setHeader("Allow", ["POST"]);
     res.status(405).end(`Method ${req.method} Not Allowed`);
   }
 }
