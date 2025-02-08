@@ -51,16 +51,4 @@ export const StyledPolicySection = styled.section`
   h3{
     padding: 1em 0;
   }
-
-  h1{
-    padding: 1em 0;
-  }
-
-  h2{
-    padding: 1em 0;
-  }
-
-  h3{
-    padding: 1em 0;
-  }
 `;

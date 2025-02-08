@@ -10,7 +10,6 @@ export const LanguageProvider = ({ children }) => {
   const [translations, setTranslations] = useState({}); // Przechowywane tłumaczenia
   const [loading, setLoading] = useState(true);
 
-  console.log(locale);
 
   // Funkcja do ładowania tłumaczeń dla danego namespace
   const loadNamespace = async (namespace) => {
