@@ -31,7 +31,6 @@ function App({ Component, pageProps }) {
         <GlobalStyle />
         <Component {...pageProps} />
       </LanguageProvider>
-
     </>
   );
 }
