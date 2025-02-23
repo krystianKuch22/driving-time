@@ -2,5 +2,28 @@
   "privacyPolicy": "Polityka prywatności",
   "termsOfUse": "Regulamin",
   "hello": "Witam",
-  "delete": "Usuń konto"
+  "delete": "Usuń konto",
+  "menu1": "O aplikacji",
+  "menu2": "Dlaczego warto?",
+  "menu3": "Zobacz aplikację",
+  "menu4": "FAQ",
+  "menu5": "Kontakt",
+  "menu6": "Pobierz",
+  "mainSection": {
+    "h2": "łączy szkołę, instruktora i kursanta",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis elit egestas augue imperdiet aliquet. Vivamus rhoncus vel tortor non tincidunt. Suspendisse consectetur fringilla euismod.",
+    "button": "Zarejestruj szkołę"
+  },
+  "aboutSection": {
+    "h2": "[opis systemu] Lorem ipsum dolor sit amet, consectetur",
+    "paragraph1": "Nulla venenatis elit egestas augue imperdiet aliquet. Vivamus rhoncus vel tortor non tincidunt. Suspendisse consectetur fringilla euismod. In et blandit purus, quis sodales ante. Donec dapibus magna vel tellus fermentum iaculis.",
+    "paragraph2": "Nunc vel ligula vulputate elit venenatis pretium nec in est: Sed sed leo ultrices, sodales libero sed, molestie risus. Maecenas et efficitur nulla. Suspendisse ut dapibus mauris. Curabitur at ullamcorper diam. Sed lobortis consequat euismod. Mauris at imperdiet ligula, ut semper massa. Proin ac interdum neque. Sed et purus vitae tellus facilisis ultrices eget nec urna. ",
+    "button": "Dowiedz się więcej"
+  },
+  "benefitsSection": {
+    "h2": "Korzyści",
+    "title1": "dla szkoły",
+    "title2": "dla instruktora",
+    "title3": "dla kursanta"
+  }
 }
