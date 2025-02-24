@@ -3,7 +3,7 @@ import { StyledContactSection } from "./ContactSection.style";
 
 export default function ContactSection() {
   return (
-    <StyledContactSection>
+    <StyledContactSection id="contactSection">
       <ContactForm />
     </StyledContactSection>
   );

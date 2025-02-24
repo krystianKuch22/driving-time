@@ -6,15 +6,16 @@ export default function ContactForm() {
     name: "",
     email: "",
     message: "",
+    agree: false,
   });
 
   const [status, setStatus] = useState("");
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
+    const { name, value, type, checked } = e.target;
     setFormData({
       ...formData,
-      [name]: value,
+      [name]: type === "checkbox" ? checked : value,
     });
   };
 
@@ -42,16 +43,18 @@ export default function ContactForm() {
     }
   };
 
+  console.log(formData);
+
   return (
     <StyledContactForm onSubmit={handleSubmit}>
+      <h2>Kontakt</h2>
       <div className="userData">
-        <h2>Napisz do nas, jeśli chcesz zacząć korzystać z oprogramowania.</h2>
         <label>
           <input
             type="text"
             id="name"
             name="name"
-            placeholder="Imię"
+            placeholder="Imię*"
             value={formData.name}
             onChange={handleChange}
             required
@@ -62,7 +65,7 @@ export default function ContactForm() {
             type="email"
             id="email"
             name="email"
-            placeholder="E-mail"
+            placeholder="e-mail*"
             value={formData.email}
             onChange={handleChange}
             required
@@ -79,7 +82,27 @@ export default function ContactForm() {
           required
         ></textarea>
       </label>
-      <button type="submit">Wyślij</button>
+      <div className="info-container">
+        <div className="checkbox-container">
+          <p>*wymagane uzupełnienie</p>
+          <label>
+            <input
+              type="checkbox"
+              name="agree"
+              id="agree"
+              value={formData.agree}
+              onChange={handleChange}
+              require
+            />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              luctus odio a euismod ullamcorper. Duis quis venenatis mi. Proin
+              porta sem id libero mattis aliquet.
+            </p>
+          </label>
+        </div>
+        <button type="submit">Wyślij</button>
+      </div>
       <p>{status}</p>
     </StyledContactForm>
   );
