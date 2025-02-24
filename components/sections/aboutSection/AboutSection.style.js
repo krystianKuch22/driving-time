@@ -84,6 +84,7 @@ export const StyledAboutSection = styled.section`
     scroll-margin-top: 12em;
     .main-container {
       flex-direction: row;
+      height: 100%;
 
       .align-container {
         width: 50%;
