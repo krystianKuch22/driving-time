@@ -3,9 +3,9 @@ import { StyledFaqSection } from "./FaqSection.style";
 export default function FaqSection() {
   const expand = (e) => {
     const height = e.target.parentElement.parentElement.style.maxHeight;
-    if (height == "100px")
-      e.target.parentElement.parentElement.style.maxHeight = "300px";
-    else e.target.parentElement.parentElement.style.maxHeight = "100px";
+    if (height == "110px")
+      e.target.parentElement.parentElement.style.maxHeight = "400px";
+    else e.target.parentElement.parentElement.style.maxHeight = "110px";
   };
 
   return (
@@ -15,10 +15,10 @@ export default function FaqSection() {
           <h2>Najczęściej zadawane pytania</h2>
         </div>
         <div className="questions-container">
-          <div className="question" style={{maxHeight: "100px"}}>
+          <div className="question" style={{maxHeight: "110px"}}>
             <div className="title">
               <button onClick={expand}>
-                Nam luctus odio a euismod ullamcorper?{" "}
+                Nam luctus odio a euismod ullamcorper?
                 <svg
                   width="28"
                   height="17"
@@ -53,10 +53,10 @@ export default function FaqSection() {
               informacji znajdziesz tutaj.
             </p>
           </div>
-          <div className="question" style={{maxHeight: "100px"}}>
+          <div className="question" style={{maxHeight: "110px"}}>
             <div className="title">
               <button onClick={expand}>
-                Nam luctus odio a euismod ullamcorper?{" "}
+                Nam luctus odio a euismod ullamcorper?
                 <svg
                   width="28"
                   height="17"
@@ -91,10 +91,10 @@ export default function FaqSection() {
               informacji znajdziesz tutaj.
             </p>
           </div>
-          <div className="question" style={{maxHeight: "100px"}}>
+          <div className="question" style={{maxHeight: "110px"}}>
             <div className="title">
               <button onClick={expand}>
-                Nam luctus odio a euismod ullamcorper?{" "}
+                Nam luctus odio a euismod ullamcorper?
                 <svg
                   width="28"
                   height="17"
@@ -129,10 +129,10 @@ export default function FaqSection() {
               informacji znajdziesz tutaj.
             </p>
           </div>
-          <div className="question" style={{maxHeight: "100px"}}>
+          <div className="question" style={{maxHeight: "110px"}}>
             <div className="title">
               <button onClick={expand}>
-                Nam luctus odio a euismod ullamcorper?{" "}
+                Nam luctus odio a euismod ullamcorper?
                 <svg
                   width="28"
                   height="17"
@@ -167,10 +167,10 @@ export default function FaqSection() {
               informacji znajdziesz tutaj.
             </p>
           </div>
-          <div className="question" style={{maxHeight: "100px"}}>
+          <div className="question" style={{maxHeight: "110px"}}>
             <div className="title">
               <button onClick={expand}>
-                Nam luctus odio a euismod ullamcorper?{" "}
+                Nam luctus odio a euismod ullamcorper?
                 <svg
                   width="28"
                   height="17"

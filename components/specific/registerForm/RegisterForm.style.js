@@ -7,7 +7,7 @@ export const StyledRegisterForm = styled.form`
   gap: 1em;
   input {
     width: 100%;
-    padding: 1.5em 1.5em;
+    padding: 1em 1em;
     background-color: ${(props) =>
       props.theme.colors.registerSection.inputBackground};
     border: solid 1px
@@ -22,8 +22,8 @@ export const StyledRegisterForm = styled.form`
   }
 
   input[type="checkbox"] {
-    width: 32.5px;
-    height: 25px;
+    width: 52.5px;
+    height: 24px;
     padding: 0;
     appearance: none;
     cursor: pointer;
@@ -63,22 +63,50 @@ export const StyledRegisterForm = styled.form`
   .small-text {
     text-align: left;
     width: 100%;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 
   label {
     display: flex;
     gap: 1em;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
   button {
     width: 100%;
-    padding: 1.5em 0;
+    padding: 1em 0;
     color: ${(props) => props.theme.colors.registerSection.buttonText};
     background-color: ${(props) =>
       props.theme.colors.registerSection.buttonBackground};
-    font-size: 1.2rem;
+    font-size: 1rem;
     border: none;
     cursor: pointer;
+  }
+
+  @media (min-width: 768px) {
+    padding: 0 1em;
+    input[type="checkbox"] {
+      width: 33px;
+      height: 25px;
+    }
+
+    .small-text {
+      font-size: 0.8rem;
+    }
+
+    label {
+      p {
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  @media (min-width: 1200px) {
+    input {
+      padding: 2em 1.5em;
+    }
+
+    button {
+      font-size: 1.5rem;
+    }
   }
 `;

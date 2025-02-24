@@ -5,15 +5,17 @@ export const StyledContactSection = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 80%;
-  background: linear-gradient(135deg, #485BFF 40.03%, #A687FF 99.92%);
+  /* height: 80%; */
+  background: linear-gradient(135deg, #485bff 40.03%, #a687ff 99.92%);
   text-align: center;
-  padding: 5em 2em;
-  scroll-margin-top: 200px;
+  padding: 2em 0;
+  scroll-margin-top: 4em;
 
   h2 {
     padding: 0 1em;
     color: #fff;
-    
+  }
+  @media (min-width: 768px) {
+    height: 100vh;
   }
 `;

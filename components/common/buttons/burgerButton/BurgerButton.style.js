@@ -3,11 +3,11 @@ import styled from "styled-components";
 export const StyledBurgerButton = styled.button`
   position: absolute;
   //
-  display: none;
+  /* display: none; */
   //
-  top: 50%;
+  top: 3em;
   transform: translateY(-50%);
-  right: 1.5em;
+  right: 2em;
   width: 4em;
   height: 2.5em;
   padding: 1em;
@@ -62,6 +62,8 @@ export const StyledBurgerButton = styled.button`
   }
 
   @media (min-width: 768px) {
+
+    
   }
 
   @media (min-width: 1200px) {

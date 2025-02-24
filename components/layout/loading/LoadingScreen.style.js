@@ -12,7 +12,7 @@ export const StyledLoadingScreen = styled.div`
   ${(props) => {
     return props.$loading
       ? `opacity: 1;
-      z-index: 1000;`
+      z-index: 2000;`
       : `opacity: 0;
     z-index:-1000;
     `;

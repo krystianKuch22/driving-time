@@ -16,7 +16,6 @@ export const StyledContactForm = styled.form`
     width: 100%;
     padding: 1em 1em 1em 0;
 
-
     input {
       width: 100%;
       background: none;
@@ -46,14 +45,14 @@ export const StyledContactForm = styled.form`
   .info-container {
     width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
 
-    p{
+    p {
       text-align: left;
       color: white;
-      font-size: .8rem;
+      font-size: 0.6rem;
     }
-    
 
     .checkbox-container {
       label {
@@ -64,9 +63,13 @@ export const StyledContactForm = styled.form`
         gap: 1em;
         padding-left: 0;
 
+        p {
+          font-size: 0.7rem;
+        }
+
         input[type="checkbox"] {
-          width: 29px;
-          height: 22px;
+          width: 59px;
+          height: 20px;
           border: solid 1px white;
           padding: 0;
           background-color: ${(props) =>
@@ -93,6 +96,7 @@ export const StyledContactForm = styled.form`
 
   .userData {
     display: flex;
+    flex-direction: column;
     width: 100%;
   }
 
@@ -100,19 +104,67 @@ export const StyledContactForm = styled.form`
     background: none;
     border: none;
     background-color: white;
-    padding: 1em 2em;
+    padding: 1em 1.5em;
     border-radius: 8px;
-    width: 20%;
+    width: 100%;
     height: 100%;
     color: black;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.8rem;
     cursor: pointer;
   }
   @media (min-width: 768px) {
+    h2 {
+      font-size: 3rem;
+    }
+
+    .info-container {
+      p {
+        font-size: 0.8rem;
+      }
+      .checkbox-container {
+        label {
+          p {
+            font-size: 0.8rem;
+          }
+          input[type="checkbox"] {
+            width: 25px;
+            height: 20px;
+          }
+        }
+      }
+    }
   }
 
   @media (min-width: 1200px) {
     width: 70%;
+
+    h2 {
+      padding-bottom: 1em;
+    }
+
+    .userData {
+      flex-direction: row;
+    }
+
+    .info-container {
+      flex-direction: row;
+      padding-top: 1em;
+
+      .checkbox-container {
+        label {
+          input[type="checkbox"] {
+            width: 22px;
+            height: 20px;
+          }
+        }
+      }
+
+      button {
+        width: 8em;
+        height: 3em;
+        font-size: 1.3rem;
+      }
+    }
   }
 `;

@@ -20,7 +20,7 @@ export function Footer({ language }) {
           </h2>
         </Link>
         <div className="text-container">
-          <div>
+          <div className="colDiv">
             <p>
               [informacje o autorze] Nulla venenatis elit egestas augue
               imperdiet aliquet. Vivamus rhoncus vel tortor non tincidunt.
@@ -43,7 +43,7 @@ export function Footer({ language }) {
           </div>
           <div className="col3">
             <Link href="#faqSection">FAQ</Link>
-            <Link href="#downloadSection">Pobierz</Link>
+            <Link href="#downloadSection" className="download-btn">Pobierz</Link>
           </div>
         </div>
       </div>
