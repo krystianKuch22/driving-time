@@ -6,7 +6,16 @@ export function Footer({ language }) {
   return (
     <StyledFooter>
       <div className="main-container">
-        <Link href="#mainSection" className="logo-container">
+
+      <h2>
+        <Link href="#mainSection" className="logo-link">
+          <Image width={35} height={35} src="/png/logo.png" />
+          <span className="logo-text">
+            Driving <span className="second-part">Time</span>
+          </span>
+        </Link>
+      </h2>
+        {/* <Link href="#mainSection" className="logo-container">
           <div className="logo-img">
             <Image
               src="/svg/logo.svg"
@@ -18,7 +27,7 @@ export function Footer({ language }) {
           <h2>
             Driving <span>Time</span>
           </h2>
-        </Link>
+        </Link> */}
         <div className="text-container">
           <div className="colDiv">
             <p>
@@ -40,10 +49,12 @@ export function Footer({ language }) {
             {/* <Link href="/">Informacje o płatnościach</Link> */}
             <Link href="#registerSection">Rejestracja szkoły</Link>
             <Link href="#contactSection">Kontakt</Link>
+            <div></div>
           </div>
           <div className="col3">
             <Link href="#faqSection">FAQ</Link>
             <Link href="#downloadSection" className="download-btn">Pobierz</Link>
+            <div></div>
           </div>
         </div>
       </div>

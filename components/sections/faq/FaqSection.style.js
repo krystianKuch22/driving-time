@@ -4,8 +4,8 @@ export const StyledFaqSection = styled.section`
   display: flex;
   align-items: center;
   /* justify-content: center; */
-  padding: 3em 1em;
-  /* height: 100vh; */
+  padding: 3em 2em;
+  min-height: 100vh;
   background: radial-gradient(
     34.27% 54.83% at 0% 50%,
     rgba(72, 91, 255, 0.5) 0%,
@@ -27,6 +27,7 @@ export const StyledFaqSection = styled.section`
       h2 {
         /* padding-top: 2em; */
         font-size: 1.5rem;
+        padding-bottom: 2em;
       }
     }
 
@@ -35,27 +36,34 @@ export const StyledFaqSection = styled.section`
       /* height: 60vh; */
 
       .question {
+        /* background-color: #fff; */
+        overflow: hidden;
+        /* max-height: 400px; */
+        transition: height 0.7s;
+        border-bottom: solid 1px #485bff;
+        /* padding-top: 4em; */
+        height: 1.5rem;
+        margin-top: 1em;
         .title {
           display: flex;
-          /* justify-content: center; */
-          gap: 1em;
+          justify-content: center;
+          width: 100%;
 
           button {
-            height: 3em;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            /* height: 3em; */
             font-size: 1rem;
             font-weight: bold;
             background: none;
             color: #a2acfe;
             border: none;
+            z-index: 1000;
             cursor: pointer;
             /* padding: 1em 2em; */
           }
         }
-        overflow: hidden;
-        /* max-height: 400px; */
-        transition: max-height 0.7s;
-        border-bottom: solid 1px #485bff;
-        padding-top: 4em;
 
         p {
           font-size: 0.8rem;
@@ -66,11 +74,14 @@ export const StyledFaqSection = styled.section`
   }
 
   @media (min-width: 768px) {
-    height: 100vh;
+    min-height: 100vh;
 
     .main-container {
       .text-container {
+        width: 100%;
+        justify-content: start;
         h2 {
+          
           font-size: 2rem;
         }
       }
@@ -80,11 +91,13 @@ export const StyledFaqSection = styled.section`
           .title {
             justify-content: center;
             button {
-              font-size: 1.1rem;
+              p {
+                font-size: 1.4rem;
+              }
             }
           }
           p {
-            font-size: 1rem;
+            font-size: 1.2rem;
           }
         }
       }
@@ -96,11 +109,12 @@ export const StyledFaqSection = styled.section`
       flex-direction: row;
 
       .text-container {
-        width: 50%;
+        width: 70%;
 
         h2 {
           font-size: 2.5rem;
           width: 70%;
+          padding-bottom: 0;
         }
       }
 
@@ -112,12 +126,18 @@ export const StyledFaqSection = styled.section`
 
         .question {
           width: 70%;
-          padding-bottom: 4em;
+          
 
           .title {
             button {
               font-size: 1.7rem;
+              padding-left: .5em;
+              padding-right: .5em;
             }
+          }
+
+          p{
+            font-size: 1.3rem;
           }
         }
       }

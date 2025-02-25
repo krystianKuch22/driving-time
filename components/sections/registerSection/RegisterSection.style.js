@@ -7,9 +7,9 @@ export const StyledRegisterSection = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     gap: 1em;
-    /* padding: 0 1em; */
+    padding: 1em 2em;
     background: linear-gradient(135deg, #485bff 40.03%, #a687ff 99.92%);
     color: ${(props) => props.theme.colors.registerSection.text};
 
@@ -18,11 +18,13 @@ export const StyledRegisterSection = styled.section`
       flex-direction: column;
       justify-content: center;
       align-items: start;
+      width: 100%;
       gap: 1em;
       font-size: 0.8rem;
 
       h2 {
         font-size: 1.2rem;
+        /* padding-bottom: 1em; */
       }
 
       .paragraph {
@@ -40,17 +42,22 @@ export const StyledRegisterSection = styled.section`
 
     .form-container {
       width: 100%;
-      padding: 0 1em;
     }
   }
 
   @media (min-width: 768px) {
     .main-container {
+
+      gap: 5em;
       .text-container {
-        align-items: center;
+        align-items: start;
         font-size: 0.9rem;
         h2 {
           font-size: 2.5rem;
+        }
+
+        .paragraph{
+          font-size: 1.2rem;
         }
       }
     }
@@ -66,14 +73,14 @@ export const StyledRegisterSection = styled.section`
         gap: 2em;
         width: 50%;
 
-        h2{
+        h2 {
           font-size: 3.5rem;
           width: 70%;
-          padding-bottom: .5em;
+          padding-bottom: 0.5em;
         }
 
-        .paragraph{
-          font-size: 1.4rem;
+        .paragraph {
+          font-size: 1.3rem;
         }
       }
 

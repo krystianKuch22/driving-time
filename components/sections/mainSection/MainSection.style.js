@@ -6,7 +6,7 @@ export const StyledMainSection = styled.section`
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 110vh;
+  min-height: 110vh;
   padding: 0 2.5em;
   background-color: ${(props) => props.theme.colors.mainSection.mainBackground};
   color: white;
@@ -27,7 +27,7 @@ export const StyledMainSection = styled.section`
     }
 
     .text-container {
-      text-align: center;
+      /* text-align: center; */
       /* width: 90%;*/
 
       h1 {
@@ -45,13 +45,16 @@ export const StyledMainSection = styled.section`
         padding-bottom: 2em;
       }
 
-      a {
-        background: linear-gradient(135deg, #485bff 40.03%, #a687ff 99.92%);
-        border: none;
-        border-radius: 16px;
-        padding: 1em 2em;
-        color: ${(props) => props.theme.colors.mainSection.buttonColor};
-        font-size: 0.7rem;
+      .btn-container {
+        display: flex;
+        a {
+          background: linear-gradient(135deg, #485bff 40.03%, #a687ff 99.92%);
+          border: none;
+          border-radius: 16px;
+          padding: 1em 2em;
+          color: ${(props) => props.theme.colors.mainSection.buttonColor};
+          font-size: 1rem;
+        }
       }
     }
 
@@ -88,23 +91,34 @@ export const StyledMainSection = styled.section`
 
   @media (min-width: 768px) {
     font-size: 1.5rem;
+    padding-top: 6em;
+    padding-bottom: 4em;
+    width: 100%;
 
     .main-container {
       .text-container {
+        display: flex;
+        flex-direction: column;
         h1 {
-          font-size: 3.5rem;
+          font-size: 4rem;
         }
 
         h2 {
-          font-size: 1.5rem;
+          font-size: 2rem;
         }
 
         p {
-          font-size: 1rem;
+          font-size: 1.2rem;
         }
 
-        a {
-          font-size: 1rem;
+        .btn-container {
+          width: 100%;
+          a {
+            display: block;
+            text-align: center;
+            width: 50%;
+            font-size: 1.4rem;
+          }
         }
       }
 
@@ -136,7 +150,7 @@ export const StyledMainSection = styled.section`
         }
 
         p {
-          font-size: 1.5rem;
+          font-size: 1.3rem;
         }
       }
 

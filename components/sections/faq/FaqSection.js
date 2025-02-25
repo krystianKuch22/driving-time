@@ -1,11 +1,38 @@
+import { useEffect, useState } from "react";
 import { StyledFaqSection } from "./FaqSection.style";
 
 export default function FaqSection() {
+  const [sizeHide, setSizeHide] = useState("1.5rem");
+  const [sizeExpand, setSizeExpand] = useState("5.5rem");
+
+  useEffect(() => {
+    const windowWidth = window.innerWidth;
+
+    if (windowWidth >= 768) {
+      setSizeHide("2.5rem");
+      setSizeExpand("7.5rem");
+    }
+    if (windowWidth >= 1200) {
+      setSizeHide("3rem");
+      setSizeExpand("8.5rem");
+    }
+  }, []);
+
   const expand = (e) => {
-    const height = e.target.parentElement.parentElement.style.maxHeight;
-    if (height == "110px")
-      e.target.parentElement.parentElement.style.maxHeight = "400px";
-    else e.target.parentElement.parentElement.style.maxHeight = "110px";
+    const allQuestions = document.getElementsByClassName("question");
+    const height = e.currentTarget.parentElement.parentElement.style.height;
+
+    if (height == sizeHide) {
+      for (let i = 0; i < allQuestions.length; i++) {
+        allQuestions[i].style.height = sizeHide;
+      }
+    }
+
+    if (height == sizeHide)
+      e.currentTarget.parentElement.parentElement.style.height = sizeExpand;
+    else {
+      e.currentTarget.parentElement.parentElement.style.height = sizeHide;
+    }
   };
 
   return (
@@ -15,10 +42,10 @@ export default function FaqSection() {
           <h2>Najczęściej zadawane pytania</h2>
         </div>
         <div className="questions-container">
-          <div className="question" style={{maxHeight: "110px"}}>
+          <div className="question" style={{ height: sizeHide }}>
             <div className="title">
               <button onClick={expand}>
-                Nam luctus odio a euismod ullamcorper?
+                <p>luctus odio a euismod ullamcorper?</p>
                 <svg
                   width="28"
                   height="17"
@@ -53,10 +80,10 @@ export default function FaqSection() {
               informacji znajdziesz tutaj.
             </p>
           </div>
-          <div className="question" style={{maxHeight: "110px"}}>
+          <div className="question" style={{ height: sizeHide }}>
             <div className="title">
               <button onClick={expand}>
-                Nam luctus odio a euismod ullamcorper?
+                <p>Nam luctus odio a euismod ullamcorper?</p>
                 <svg
                   width="28"
                   height="17"
@@ -91,10 +118,10 @@ export default function FaqSection() {
               informacji znajdziesz tutaj.
             </p>
           </div>
-          <div className="question" style={{maxHeight: "110px"}}>
+          <div className="question" style={{ height: sizeHide }}>
             <div className="title">
               <button onClick={expand}>
-                Nam luctus odio a euismod ullamcorper?
+                <p>Nam luctus odio a euismod ullamcorper?</p>
                 <svg
                   width="28"
                   height="17"
@@ -129,10 +156,10 @@ export default function FaqSection() {
               informacji znajdziesz tutaj.
             </p>
           </div>
-          <div className="question" style={{maxHeight: "110px"}}>
+          <div className="question" style={{ height: sizeHide }}>
             <div className="title">
               <button onClick={expand}>
-                Nam luctus odio a euismod ullamcorper?
+                <p>Nam luctus odio a euismod ullamcorper?</p>
                 <svg
                   width="28"
                   height="17"
@@ -167,10 +194,10 @@ export default function FaqSection() {
               informacji znajdziesz tutaj.
             </p>
           </div>
-          <div className="question" style={{maxHeight: "110px"}}>
+          <div className="question" style={{ height: sizeHide }}>
             <div className="title">
               <button onClick={expand}>
-                Nam luctus odio a euismod ullamcorper?
+                <p>Nam luctus odio a euismod ullamcorper?</p>
                 <svg
                   width="28"
                   height="17"

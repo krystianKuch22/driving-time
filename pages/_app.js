@@ -11,9 +11,26 @@ function App({ Component, pageProps }) {
   const [theme, setTheme] = useState("dark");
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem("theme") || "dark";
-    setTheme(savedTheme);
-  }, []);
+    const handleRouteChange = (url) => {
+      if (url === "/") {
+        // Usuwa #id z adresu
+        if (window.location.hash) {
+          history.replaceState(null, "", window.location.pathname);
+        }
+
+        // Opóźnione przewinięcie na górę (aby nadpisać zapamiętaną pozycję)
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+        }, 10); // 10ms opóźnienia (możesz zwiększyć do 50ms, jeśli nie działa)
+      }
+    };
+
+    router.events.on("routeChangeComplete", handleRouteChange);
+
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
 
   const toggleTheme = () => {
     const newtheme = theme === "dark" ? "light" : "dark";
@@ -22,9 +39,13 @@ function App({ Component, pageProps }) {
   };
 
   return (
-    <ThemeProvider theme={theme === 'dark' ? darkTheme : lightTheme}>
+    <ThemeProvider theme={theme === "dark" ? darkTheme : lightTheme}>
       <Head>
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        ></meta>
       </Head>
       <LanguageProvider>
         <GlobalStyle />

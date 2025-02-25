@@ -12,10 +12,21 @@ import RegisterSection from "@/components/sections/registerSection/RegisterSecti
 import { useLanguageContext } from "@/context/LanguageContext";
 
 import { useLanguage } from "@/hooks/useLanguage";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
 
 export default function Home() {
   const { t, loading } = useLanguage("common");
   const { changeLanguage } = useLanguageContext();
+
+  const router = useRouter();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    if (window.location.hash) {
+      router.replace("/", undefined, { shallow: true });
+    }
+  }, []);
 
   // if(loading){
   //   return <LoadingScreen $loading={loading}/>
@@ -26,12 +37,12 @@ export default function Home() {
       <LoadingScreen loading={loading} />
       <Header />
       <MainSection />
-      <AboutSection/>
-      <BenefitsSection/>
-      <DemoSection/>
-      <DownloadSection/>
-      <RegisterSection/>
-      <FaqSection/>
+      <AboutSection />
+      <BenefitsSection />
+      <DemoSection />
+      <DownloadSection />
+      <RegisterSection />
+      <FaqSection />
       <ContactSection />
       <Footer language={t} />
 

@@ -36,14 +36,17 @@ export function Header() {
 
   return (
     <StyledHeader $isOpen={isOpen}>
-      <h2>
-        <Link href="#mainSection" className="logo-link">
-          <Image width={35} height={35} src="/png/logo.png" />
-          <span className="logo-text">
-            Driving <span className="second-part">Time</span>
-          </span>
-        </Link>
-      </h2>
+      <div className="logo-burger-container">
+        <h2>
+          <Link href="#mainSection" className="logo-link">
+            <Image width={35} height={35} src="/png/logo.png" />
+            <span className="logo-text">
+              Driving <span className="second-part">Time</span>
+            </span>
+          </Link>
+        </h2>
+        <BurgerButton showMenu={showMenu} isOpen={isOpen} />
+      </div>
       <div className="menu-btns">
         <Link href="#aboutSection" onClick={showMenu}>
           {t("menu1")}
@@ -64,7 +67,6 @@ export function Header() {
           {t("menu5")}
         </Link>
       </div>
-      <BurgerButton showMenu={showMenu} isOpen={isOpen} />
     </StyledHeader>
   );
 }

@@ -4,6 +4,8 @@ export const StyledBenefitsSection = styled.section`
   padding: 6em 1em;
   background-color: ${(props) =>
     props.theme.colors.benefitsSection.mainBackground};
+  min-height: 100vh;
+  margin-bottom: -1px;
 
   .main-container {
     display: flex;
@@ -32,6 +34,9 @@ export const StyledBenefitsSection = styled.section`
         padding: 1em 2em;
         font-size: 0.7rem;
         .title {
+          h3 {
+            font-size: 1.9rem;
+          }
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -54,6 +59,10 @@ export const StyledBenefitsSection = styled.section`
             gap: 2em;
             padding-left: 1em;
             color: ${(props) => props.theme.colors.benefitsSection.textColor};
+
+            li {
+              font-size: 0.8rem;
+            }
           }
         }
       }
@@ -61,33 +70,49 @@ export const StyledBenefitsSection = styled.section`
   }
 
   @media (min-width: 768px) {
-    
-
     .main-container .benefits-container {
+      gap: 3em;
       .card {
         width: 35em;
 
-        .title{
-          font-size: 1.5rem;
+        .title {
+          font-size: 1.9rem;
 
-          .card-img{
+          .card-img {
             width: 70px;
             height: 70px;
           }
         }
         .text {
           font-size: 1rem;
+
+          ul {
+            li {
+              font-size: 1.2rem;
+            }
+          }
         }
       }
     }
   }
 
   @media (min-width: 1200px) {
-    .main-container{
-      .benefits-container{
+    padding: 4em 6em;
+    .main-container {
+      .benefits-container {
         flex-direction: row;
-        .card{
+        justify-content: space-between;
+        width: 100%;
+        .card {
           padding: 3em 2em;
+
+          .text {
+            ul {
+              li {
+                font-size: 1.3rem;
+              }
+            }
+          }
         }
       }
     }

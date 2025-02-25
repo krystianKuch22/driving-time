@@ -17,7 +17,7 @@ const GlobalStyle = createGlobalStyle`
   }
   
   body {
-    width: 100vw;
+
     overflow-x: hidden;
     font-family: 'Arial', sans-serif;
     background-color: #f5f5f5;

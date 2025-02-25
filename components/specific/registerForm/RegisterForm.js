@@ -120,20 +120,24 @@ export default function RegisterForm() {
         </label>
       </div>
       <p className="small-text">*wymagane uzupełnienie</p>
-      <label>
-        <input
-          type="checkbox"
-          name="agree"
-          value={formData.acceptTerms}
-          onChange={handleChange}
-        />
+      <label className="checkbox-container">
+        <div>
+          <input
+            type="checkbox"
+            name="agree"
+            value={formData.acceptTerms}
+            onChange={handleChange}
+          />
+        </div>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam luctus
           odio a euismod ullamcorper. Duis quis venenatis mi. Proin porta sem id
           libero mattis aliquet.
         </p>
       </label>
-      <button type="submit">Zarejestruj się</button>
+      <div className="btn-container">
+        <button type="submit">Zarejestruj się</button>
+      </div>
     </StyledRegisterForm>
   );
 }

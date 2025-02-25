@@ -17,7 +17,9 @@ export default function MainSection() {
             <h1>Driving Time</h1>
             <h2>{t("mainSection").h2}</h2>
             <p>{t("mainSection").paragraph}</p>
-            <Link href="#registerSection"> {t("mainSection").button}</Link>
+            <div className="btn-container">
+              <Link href="#registerSection"> {t("mainSection").button}</Link>
+            </div>
           </div>
         </div>
         <div className="main-img">
