@@ -98,6 +98,7 @@ export const StyledBenefitsSection = styled.section`
 
   @media (min-width: 1200px) {
     padding: 4em 6em;
+    scroll-margin-top: 4em;
     .main-container {
       .benefits-container {
         flex-direction: row;

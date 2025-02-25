@@ -87,7 +87,7 @@ export const StyledAboutSection = styled.section`
   @media (min-width: 1200px) {
     min-height: 40vh;
     padding: 2em 6em;
-    scroll-margin-top: 12em;
+    scroll-margin-top: 8em;
     .main-container {
       flex-direction: row;
       justify-content: space-between;
@@ -110,8 +110,8 @@ export const StyledAboutSection = styled.section`
             position: static;
           }
 
-          .btn-container{
-            a{
+          .btn-container {
+            a {
               font-size: 1.4rem;
             }
           }
