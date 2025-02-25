@@ -91,6 +91,7 @@ export const StyledAboutSection = styled.section`
     .main-container {
       flex-direction: row;
       justify-content: space-between;
+
       height: 100%;
 
       .align-container {
