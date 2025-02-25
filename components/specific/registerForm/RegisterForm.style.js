@@ -22,10 +22,14 @@ export const StyledRegisterForm = styled.form`
   }
 
   input[type="checkbox"] {
-    width: 52.5px;
-    height: 24px;
-    padding: 0;
     appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 0;
+    width: 20px; /* Stała szerokość */
+    height: 20px; /* Stała wysokość */
+    display: inline-block;
+    position: relative;
     cursor: pointer;
   }
   input[type="checkbox"]:checked {
@@ -42,17 +46,23 @@ export const StyledRegisterForm = styled.form`
     transform: translate(-50%, -50%);
   }
 
+  .checkbox-container {
+    align-items: center;
+  }
+
   .box1 {
     display: flex;
+    flex-direction: column;
     gap: 1em;
     width: 100%;
 
     .first {
-      width: 35%;
+      width: 100%;
     }
   }
   .box2 {
     display: flex;
+    flex-direction: column;
     gap: 1em;
     width: 100%;
     input {
@@ -64,6 +74,7 @@ export const StyledRegisterForm = styled.form`
     text-align: left;
     width: 100%;
     font-size: 0.6rem;
+    padding: .5em 0;
   }
 
   label {
@@ -71,21 +82,24 @@ export const StyledRegisterForm = styled.form`
     gap: 1em;
     font-size: 0.6rem;
   }
-  button {
+  .btn-container {
     width: 100%;
-    padding: 1em 0;
-    color: ${(props) => props.theme.colors.registerSection.buttonText};
-    background-color: ${(props) =>
-      props.theme.colors.registerSection.buttonBackground};
-    font-size: 1rem;
-    border: none;
-    cursor: pointer;
+    button {
+      width: 100%;
+      padding: 1em 0;
+      color: ${(props) => props.theme.colors.registerSection.buttonText};
+      background-color: ${(props) =>
+        props.theme.colors.registerSection.buttonBackground};
+      font-size: 1rem;
+      border-radius: 16px;
+      border: none;
+      cursor: pointer;
+    }
   }
 
   @media (min-width: 768px) {
-    padding: 0 1em;
     input[type="checkbox"] {
-      width: 33px;
+      width: 25px;
       height: 25px;
     }
 
@@ -96,6 +110,28 @@ export const StyledRegisterForm = styled.form`
     label {
       p {
         font-size: 0.8rem;
+      }
+    }
+
+    .box1 {
+      flex-direction: row;
+
+      .first {
+        width: 35%;
+      }
+    }
+
+    .box2 {
+      flex-direction: row;
+    }
+
+    .btn-container {
+      display: flex;
+      justify-content: center;  
+      width: 100%;
+      button {
+        
+        /* width: 50%; */
       }
     }
   }

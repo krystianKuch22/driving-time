@@ -8,9 +8,24 @@ export const StyledFooter = styled.footer`
     /* height: 40vh; */
     background-color: #040617;
     color: #fff;
+    padding: 2em 2em;
   }
 
-  .logo-container {
+  h2 {
+    padding-bottom: 1em;
+    font-size: 1.1rem;
+
+    a {
+      display: flex;
+      align-items: center;
+
+      .logo-text {
+        padding-left: 0.2em;
+      }
+    }
+  }
+
+  /* .logo-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,7 +33,7 @@ export const StyledFooter = styled.footer`
     padding: 2em 1em;
 
     h2 {
-      font-size: 2rem;
+      font-size: 1rem;
     }
 
     span {
@@ -30,18 +45,18 @@ export const StyledFooter = styled.footer`
       width: 50px;
       height: 50px;
     }
-  }
+  } */
 
   .text-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     gap: 1em;
     padding-bottom: 1em;
 
     div {
       /* width: 20%; */
-      padding: 0 1em;
+      /* padding: 0 1em; */
 
       p {
         font-size: 0.8rem;
@@ -52,9 +67,13 @@ export const StyledFooter = styled.footer`
     .col2,
     .col3 {
       display: flex;
-      /* flex-direction: column; */
+      flex-direction: column;
       gap: 1em;
       font-size: 0.8rem;
+
+      div {
+        display: none;
+      }
     }
 
     .deco {
@@ -80,55 +99,79 @@ export const StyledFooter = styled.footer`
     background-color: #a2acfe;
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: 768px) {
     .logo-container {
-      justify-content: start;
-      padding: 4em 6em;
-      padding-bottom: 1em;
-
       h2 {
-        font-size: 3rem;
-      }
-
-      .logo-img {
-        width: 70px;
-        height: 70px;
+        font-size: 1.5rem;
       }
     }
+  }
 
-    .text-container {
-      flex-direction: row;
-      padding: 4em 6em;
-      height: 25vh;
-
-      .colDiv {
-        width: 30%;
-
-        p {
-          font-size: 1rem;
-        }
-      }
-
-      .deco {
-        height: 100%;
-        width: 20%;
-        div {
-          padding: 0;
-          width: 1px;
-        }
-      }
-      .col1,
-      .col2,
-      .col3 {
-        flex-direction: column;
+  @media (min-width: 1200px) {
+    .main-container {
+      padding: 2em 6em;
+      /* .logo-container {
         justify-content: start;
-        align-items: start;
-        width: 20%;
-        height: 100%;
-        font-size: 1rem;
+        padding: 4em 6em;
+        padding-bottom: 1em;
 
-        .download-btn{
-          color: #A2ACFE;
+        h2 {
+
+          font-size: 1.5rem;
+        }
+
+        .logo-img {
+          width: 70px;
+          height: 70px;
+        }
+      } */
+
+        h2{
+          font-size: 1.5rem;
+        }
+
+      .text-container {
+        flex-direction: row;
+        /* padding: 4em 6em; */
+
+        height: 15vh;
+        padding-top: 2em;
+
+        .colDiv {
+          width: 30%;
+          padding-left: 0;
+
+          p {
+            font-size: 1rem;
+          }
+        }
+
+        .deco {
+          height: 100%;
+          width: 20%;
+          div {
+            padding: 0;
+            width: 1px;
+          }
+        }
+        .col1,
+        .col2,
+        .col3 {
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: start;
+          width: 20%;
+          height: 100%;
+          font-size: 1rem;
+
+          .download-btn {
+            color: #a2acfe;
+          }
+
+          div {
+            display: block;
+            height: 1rem;
+          }
         }
       }
     }

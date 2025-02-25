@@ -5,7 +5,7 @@ export const StyledContactSection = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* height: 80%; */
+  min-height: 100vh;
   background: linear-gradient(135deg, #485bff 40.03%, #a687ff 99.92%);
   text-align: center;
   padding: 2em 0;
@@ -16,6 +16,6 @@ export const StyledContactSection = styled.section`
     color: #fff;
   }
   @media (min-width: 768px) {
-    height: 100vh;
+    min-height: 100vh;
   }
 `;

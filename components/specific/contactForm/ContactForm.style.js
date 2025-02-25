@@ -5,7 +5,7 @@ export const StyledContactForm = styled.form`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1em;
+  padding: 1em 2em;
   width: 100%;
 
   h2 {
@@ -36,6 +36,8 @@ export const StyledContactForm = styled.form`
       padding: 1em 1.5em;
       border: none;
       border-bottom: solid 1px white;
+      max-width: 100%;
+    
 
       &::placeholder {
         color: white;
@@ -46,7 +48,7 @@ export const StyledContactForm = styled.form`
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: start; */
 
     p {
       text-align: left;
@@ -68,7 +70,7 @@ export const StyledContactForm = styled.form`
         }
 
         input[type="checkbox"] {
-          width: 59px;
+          width: 20px;
           height: 20px;
           border: solid 1px white;
           padding: 0;
@@ -118,6 +120,7 @@ export const StyledContactForm = styled.form`
       font-size: 3rem;
     }
 
+
     .info-container {
       p {
         font-size: 0.8rem;
@@ -129,15 +132,18 @@ export const StyledContactForm = styled.form`
           }
           input[type="checkbox"] {
             width: 25px;
-            height: 20px;
+            height: 25px;
           }
         }
+      }
+      button{
+        width: 50%;
       }
     }
   }
 
   @media (min-width: 1200px) {
-    width: 70%;
+    width: 50%;
 
     h2 {
       padding-bottom: 1em;
@@ -149,13 +155,18 @@ export const StyledContactForm = styled.form`
 
     .info-container {
       flex-direction: row;
+      align-items: center;
       padding-top: 1em;
+      padding-right: 1em;
 
       .checkbox-container {
+
         label {
+          padding-top: 2em;
           input[type="checkbox"] {
-            width: 22px;
+            width: 20px;
             height: 20px;
+
           }
         }
       }
@@ -163,7 +174,8 @@ export const StyledContactForm = styled.form`
       button {
         width: 8em;
         height: 3em;
-        font-size: 1.3rem;
+        font-size: 1rem;
+        border-radius: 0;
       }
     }
   }

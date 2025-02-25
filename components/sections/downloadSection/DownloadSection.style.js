@@ -4,23 +4,24 @@ export const StyledDownloadSection = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  min-height: 50vh;
   width: 100%;
   scroll-margin-top: 15em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+
 
   .main-container {
     text-align: center;
-    .text-container{
-        padding-bottom: 2.5em;
+    .text-container {
+      padding-bottom: 2.5em;
 
-        h2{
-            font-size: 2rem;
-            color: "#11174E";
-        }
+      h2 {
+        font-size: 2rem;
+        color: "#11174E";
+      }
     }
 
-
-    
     .btn-container {
       display: flex;
       flex-direction: column;
@@ -29,50 +30,58 @@ export const StyledDownloadSection = styled.section`
       width: 100%;
 
       a {
-        display: block;
         position: relative;
-        width: 8em;
-        height: 3.5em;
-        
+        padding: 0.5em;
+        /* width: 100%;
+        height: 100%; */
+
+        div {
+          position: relative;
+          width: 185px;
+          height: 60px;
+        }
       }
     }
   }
 
   @media (min-width: 768px) {
+    padding: 2em 4em;
+    .main-container {
+      .btn-container {
+        /* flex-direction: row; */
+        gap: 4em;
 
-    .main-container{
+        a {
+          
 
-      .btn-container{
-        flex-direction: row;
-
-        a{
-            width: 11em;
-            height: 3.2em;
+          div {
+            position: relative;
+            width: 175px;
+            height: 60px;
+          }
         }
       }
     }
   }
 
   @media (min-width: 1200px) {
-    height: 40vh;
-    
-    .main-container{
+    min-height: 40vh;
 
-      .text-container{
-        h2{
+    .main-container {
+      .text-container {
+        h2 {
           font-size: 3rem;
         }
       }
 
-      .btn-container{
-        gap: 8em;
-        a{
+      .btn-container {
+        flex-direction: row;
+        gap: 3em;
+        a {
           width: 14em;
           height: 4em;
         }
       }
     }
   }
-
-
 `;

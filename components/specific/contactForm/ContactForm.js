@@ -86,14 +86,16 @@ export default function ContactForm() {
         <div className="checkbox-container">
           <p>*wymagane uzupełnienie</p>
           <label>
-            <input
-              type="checkbox"
-              name="agree"
-              id="agree"
-              value={formData.agree}
-              onChange={handleChange}
-              require
-            />
+            <div>
+              <input
+                type="checkbox"
+                name="agree"
+                id="agree"
+                value={formData.agree}
+                onChange={handleChange}
+                require
+              />
+            </div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
               luctus odio a euismod ullamcorper. Duis quis venenatis mi. Proin

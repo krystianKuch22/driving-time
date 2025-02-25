@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const StyledAboutSection = styled.section`
   display: flex;
   justify-content: center;
-  width: 100%;
-  /* height: 60vh; */
-  padding: 2em 1em;
+  /* width: 100%; */
+  min-height: 80vh;
+  padding: 2em 2em;
   background: linear-gradient(135deg, #485bff 40.03%, #a687ff 99.92%);
   color: ${(props) => props.theme.colors.aboutSection.textColor};
   scroll-margin-top: 4em;
@@ -22,7 +22,7 @@ export const StyledAboutSection = styled.section`
       .text-container {
         /* width: 90%; */
 
-        padding-bottom: 5em;
+        padding-bottom: 3em;
         h2 {
           font-size: 1rem;
           padding-bottom: 0.8em;
@@ -31,15 +31,20 @@ export const StyledAboutSection = styled.section`
           padding-bottom: 2em;
           font-size: 0.8rem;
         }
-        a {
-          position: absolute;
-          left: 50%;
-          transform: translateX(-50%);
-          background: none;
-          padding: 1em 2em;
-          font-size: 0.8rem;
-          border: solid 1px black;
-          color: black;
+        .btn-container {
+          display: flex;
+          justify-content: center;
+          a {
+            /* position: absolute; */
+            /* left: 50%; */
+            /* transform: translateX(-50%); */
+            background: none;
+            padding: 1em 2em;
+            font-size: 1rem;
+            border-radius: 16px;
+            border: solid 1px black;
+            color: black;
+          }
         }
       }
     }
@@ -52,21 +57,22 @@ export const StyledAboutSection = styled.section`
   }
 
   @media (min-width: 768px) {
-    height: 100vh;
+    min-height: 100vh;
     padding: 2em 2em;
     align-items: center;
 
     .main-container {
       .align-container {
         .text-container {
+          height: auto;
           h2 {
-            font-size: 1.5rem;
+            font-size: 2rem;
           }
           p {
-            font-size: 1rem;
+            font-size: 1.2rem;
           }
           a {
-            font-size: 1rem;
+            font-size: 1.4rem;
           }
         }
       }
@@ -79,33 +85,43 @@ export const StyledAboutSection = styled.section`
   }
 
   @media (min-width: 1200px) {
-    height: 60vh;
-    padding: 0 6em;
+    min-height: 40vh;
+    padding: 2em 6em;
     scroll-margin-top: 12em;
     .main-container {
       flex-direction: row;
+      justify-content: space-between;
       height: 100%;
 
       .align-container {
-        width: 50%;
+        width: 40%;
 
         .text-container {
+          padding-bottom: 1em;
           h2 {
             font-size: 2rem;
           }
 
           p {
-            font-size: 1.2rem;
+            font-size: 1.3rem;
           }
           a {
             position: static;
+          }
+
+          .btn-container{
+            a{
+              font-size: 1.4rem;
+            }
           }
         }
       }
 
       .about-img {
-        width: 60%;
-        height: 120%;
+        position: absolute;
+        right: 0;
+        width: 50%;
+        height: 75vh;
       }
     }
   }

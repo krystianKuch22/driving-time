@@ -5,8 +5,8 @@ export const StyledDemoSection = styled.section`
   align-items: center;
   justify-content: center;
   background-color: ${(props) => props.theme.colors.demoSection.mainBackground};
-  height: 100vh;
-  padding: 0 1em;
+  min-height: 100vh;
+  padding: 0 2em;
   scroll-margin-top: 4em;
 
   .main-container {
@@ -27,7 +27,12 @@ export const StyledDemoSection = styled.section`
       }
 
       h3 {
+        font-size: .9rem;
         color: ${(props) => props.theme.colors.demoSection.title};
+      }
+
+      p{
+        font-size: .8rem;
       }
 
       div {
@@ -39,38 +44,51 @@ export const StyledDemoSection = styled.section`
         left: 50%;
         transform: translateX(-50%);
         padding: 1em 2em;
+        border-radius: 16px;
         border: none;
         background: linear-gradient(135deg, #485bff 40.03%, #a687ff 99.92%);
+        display: none;
       }
     }
 
     .img-container {
       position: relative;
+      display: flex;
+      justify-content: start;
       width: 100%;
       height: 10em;
 
       .img-first {
-        position: absolute;
+        position: relative;
+        /* position: absolute;
         left: 5%;
-        top: 2em;
+        top: 2em; */
         /* transform: translateY(-50%); */
-        width: 30%;
-        height: 80%;
+        /* width: 30%;
+        height: 80%; */
+        width: 100%;
+        height: 100%;
       }
       .img-second {
-        position: absolute;
+        position: relative;
+        /* position: absolute;
         left: 35%;
-        top: 2em;
+        top: 2em; */
         /* transform: translateY(-50%); */
-        width: 30%;
-        height: 80%;
+        /* width: 30%;
+        height: 80%; */
+        width: 100%;
+        height: 100%;
       }
       .img-third {
-        position: absolute;
+        position: relative;
+        /* position: absolute;
         top: 2em;
-        left: 65%;
-        width: 30%;
-        height: 80%;
+        left: 65%; */
+        /* width: 30%;
+        height: 80%; */
+        width: 100%;
+        height: 100%;
       }
     }
   }
@@ -88,17 +106,26 @@ export const StyledDemoSection = styled.section`
 
   @media (min-width: 768px) {
     padding: 0 2em;
+    padding-bottom: 3em;
 
     .main-container {
       .text-container {
         font-size: 0.9rem;
 
         h2 {
-          font-size: 1.5rem;
+          font-size: 2rem;
+        }
+
+        h3{
+          font-size: 1.4rem;
         }
 
         button {
           font-size: 1rem;
+        }
+
+        p{
+          font-size: 1.2rem;
         }
       }
     }
@@ -108,12 +135,13 @@ export const StyledDemoSection = styled.section`
     padding: 0 6em;
 
     .main-container {
+      position: relative;
       flex-direction: row;
       height: 80%;
 
       .text-container {
         h2 {
-          font-size: 2.5rem;
+          font-size: 2rem;
           padding-bottom: 1em;
         }
 
@@ -122,7 +150,7 @@ export const StyledDemoSection = styled.section`
         }
 
         p {
-          font-size: 1rem;
+          font-size: 1.3rem;
         }
 
         button {
@@ -133,7 +161,7 @@ export const StyledDemoSection = styled.section`
 
       .img-container {
         position: relative;
-        height: 100%;
+        height: 40em;
         width: 100%;
 
         .img-first {
@@ -141,8 +169,8 @@ export const StyledDemoSection = styled.section`
           left: 15%;
           top: 50%;
           transform: translateY(-50%);
-          width: 20em;
-          height: 28em;
+          width: 15em;
+          height: 24em;
         }
         .img-second {
           top: 10%;
