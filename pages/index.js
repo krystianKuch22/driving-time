@@ -22,15 +22,9 @@ export default function Home() {
   const router = useRouter();
 
   useEffect(() => {
+    // Po każdym odświeżeniu strony resetuj scroll na samą górę (bez animacji)
     window.scrollTo(0, 0);
-    if (window.location.hash) {
-      router.replace("/", undefined, { shallow: true });
-    }
   }, []);
-
-  // if(loading){
-  //   return <LoadingScreen $loading={loading}/>
-  // }
 
   return (
     <>

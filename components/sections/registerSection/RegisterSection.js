@@ -17,7 +17,7 @@ export default function RegisterSection() {
                 style={{ objectFit: "contain" }}
               />
             </div>
-            <p>Vivamus rhoncus vel tortor non tincidunt.</p>
+            <p>Zarejestruj swoją szkołę – wystarczy podać nazwę i email!</p>
           </div>
           <div className="paragraph">
             <div className="img-box">
@@ -28,7 +28,10 @@ export default function RegisterSection() {
                 style={{ objectFit: "contain" }}
               />
             </div>
-            <p>Vivamus rhoncus vel tortor non tincidunt.</p>
+            <p>
+              Porozmawiajmy o współpracy! Skontaktujemy się z Tobą, żeby ustalić
+              szczegóły.
+            </p>
           </div>
           <div className="paragraph">
             <div className="img-box">
@@ -39,12 +42,15 @@ export default function RegisterSection() {
                 style={{ objectFit: "contain" }}
               />
             </div>
-            <p>Vivamus rhoncus vel tortor non tincidunt.</p>
+            <p>
+              Z przyjemnością usprawnimy Twoją pracę i wprowadzimy funkcje,
+              które naprawdę Ci się przydadzą!
+            </p>
           </div>
         </div>
 
         <div className="form-container">
-          <RegisterForm/>
+          <RegisterForm />
         </div>
       </div>
     </StyledRegisterSection>

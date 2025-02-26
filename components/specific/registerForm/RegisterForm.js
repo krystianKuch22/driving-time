@@ -241,9 +241,7 @@ export default function RegisterForm() {
           )}
         </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam luctus
-          odio a euismod ullamcorper. Duis quis venenatis mi. Proin porta sem id
-          libero mattis aliquet.
+        Zapoznałem się z Regulaminem lub Polityką Prywatności serwisu i akceptuję jego regulamin. *pole jest wymagane
         </p>
       </label>
       <div className="btn-container">

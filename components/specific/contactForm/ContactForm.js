@@ -79,13 +79,14 @@ export default function ContactForm() {
           placeholder="Wiadomość"
           value={formData.message}
           onChange={handleChange}
+          maxLength={500}
           required
         ></textarea>
       </label>
       <div className="info-container">
         <div className="checkbox-container">
           <p>*wymagane uzupełnienie</p>
-          <label>
+          {/* <label>
             <div>
               <input
                 type="checkbox"
@@ -101,7 +102,7 @@ export default function ContactForm() {
               luctus odio a euismod ullamcorper. Duis quis venenatis mi. Proin
               porta sem id libero mattis aliquet.
             </p>
-          </label>
+          </label> */}
         </div>
         <button type="submit">Wyślij</button>
       </div>

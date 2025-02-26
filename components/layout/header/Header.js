@@ -4,11 +4,12 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useLanguage } from "@/hooks/useLanguage";
+import { useRouter } from "next/router";
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const { t } = useLanguage("common");
-
+  const router = useRouter()
   const [width, setWidth] = useState(0);
 
   useEffect(() => {
@@ -38,7 +39,7 @@ export function Header() {
     <StyledHeader $isOpen={isOpen}>
       <div className="logo-burger-container">
         <h2>
-          <Link href="#mainSection" className="logo-link">
+          <Link href="/#mainSection" className="logo-link">
             <Image width={35} height={35} src="/png/logo.png" />
             <span className="logo-text">
               Driving <span className="second-part">Time</span>
@@ -48,22 +49,22 @@ export function Header() {
         <BurgerButton showMenu={showMenu} isOpen={isOpen} />
       </div>
       <div className="menu-btns">
-        <Link href="#aboutSection" onClick={showMenu}>
+        <Link href="/#aboutSection" onClick={showMenu}>
           {t("menu1")}
         </Link>
-        <Link href="#benefitSection" onClick={showMenu}>
+        <Link href="/#benefitSection" onClick={showMenu}>
           {t("menu2")}
         </Link>
-        <Link href="#demoSection" onClick={showMenu}>
+        <Link href="/#demoSection" onClick={showMenu}>
           {t("menu3")}
         </Link>
-        <Link href="#downloadSection" onClick={showMenu}>
+        <Link href="/#downloadSection" onClick={showMenu}>
           {t("menu6")}
         </Link>
-        <Link href="#faqSection" onClick={showMenu}>
+        <Link href="/#faqSection" onClick={showMenu}>
           {t("menu4")}
         </Link>
-        <Link href="#contactSection" onClick={showMenu}>
+        <Link href="/#contactSection" onClick={showMenu}>
           {t("menu5")}
         </Link>
       </div>

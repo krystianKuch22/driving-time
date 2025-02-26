@@ -11,26 +11,22 @@ function App({ Component, pageProps }) {
   const [theme, setTheme] = useState("dark");
 
   useEffect(() => {
-    const handleRouteChange = (url) => {
-      if (url === "/") {
-        // Usuwa #id z adresu
-        if (window.location.hash) {
-          history.replaceState(null, "", window.location.pathname);
-        }
-
-        // Opóźnione przewinięcie na górę (aby nadpisać zapamiętaną pozycję)
+    const handlePopState = () => {
+      if (window.location.pathname === '/') {
         setTimeout(() => {
           window.scrollTo(0, 0);
-        }, 10); // 10ms opóźnienia (możesz zwiększyć do 50ms, jeśli nie działa)
+        }, 10); // Opóźnienie, aby nadpisać domyślne zachowanie przeglądarki
       }
     };
 
-    router.events.on("routeChangeComplete", handleRouteChange);
+    window.addEventListener('popstate', handlePopState);
 
     return () => {
-      router.events.off("routeChangeComplete", handleRouteChange);
+      window.removeEventListener('popstate', handlePopState);
     };
-  }, [router.events]);
+  }, []);
+
+  
 
   const toggleTheme = () => {
     const newtheme = theme === "dark" ? "light" : "dark";
