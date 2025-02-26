@@ -17,8 +17,16 @@ export const useLanguage = (namespace) => {
     fetchTranslations();
   }, [namespace, language]);
 
-  const t = (key) => {
-    return namespaceTranslations[key] || key; // Zwraca klucz, jeśli brak tłumaczenia
+  // const t = (key) => {
+
+  //   return namespaceTranslations[key] || key; // Zwraca klucz, jeśli brak tłumaczenia
+  // };
+
+  const t = (key, defaultValue = key) => {
+    return (
+      key.split(".").reduce((obj, key) => obj?.[key], namespaceTranslations) ||
+      defaultValue
+    );
   };
 
   return { t, language, loading };

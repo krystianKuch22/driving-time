@@ -41,7 +41,7 @@ function App({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme === "dark" ? darkTheme : lightTheme}>
       <Head>
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" type="image/svg+xml" href="/favicon2.svg" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0"

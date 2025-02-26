@@ -11,19 +11,41 @@
   "menu6": "Pobierz",
   "mainSection": {
     "h2": "łączy szkołę, instruktora i kursanta",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis elit egestas augue imperdiet aliquet. Vivamus rhoncus vel tortor non tincidunt. Suspendisse consectetur fringilla euismod.",
+    "paragraph": "Intuicyjna aplikacja stworzona z myślą o ośrodkach szkolenia kierowców, instruktorach oraz kursantach. Dzięki niej organizacja zajęć staje się prostsza, szybsza i bardziej przejrzysta. Zarządzaj harmonogramem, monitoruj postępy kursantów i usprawniaj komunikację – wszystko w jednym miejscu!",
     "button": "Zarejestruj szkołę"
   },
   "aboutSection": {
-    "h2": "[opis systemu] Lorem ipsum dolor sit amet, consectetur",
-    "paragraph1": "Nulla venenatis elit egestas augue imperdiet aliquet. Vivamus rhoncus vel tortor non tincidunt. Suspendisse consectetur fringilla euismod. In et blandit purus, quis sodales ante. Donec dapibus magna vel tellus fermentum iaculis.",
-    "paragraph2": "Nunc vel ligula vulputate elit venenatis pretium nec in est: Sed sed leo ultrices, sodales libero sed, molestie risus. Maecenas et efficitur nulla. Suspendisse ut dapibus mauris. Curabitur at ullamcorper diam. Sed lobortis consequat euismod. Mauris at imperdiet ligula, ut semper massa. Proin ac interdum neque. Sed et purus vitae tellus facilisis ultrices eget nec urna. ",
+    "h2": "Driving Time to klucz do sprawnej organizacji nauki jazdy",
+    "paragraph1": "Pobierz aplikację i zarządzaj lekcjami w nowoczesny i efektywny sposób! Oszczędzaj czas i zwiększ efektywność pracy szkoły jazdy",
+    "paragraph2": "Dzięki Driving Time lekcje są lepiej zorganizowane, a komunikacja między szkołą, instruktorami i kursantami przebiega płynnie. Niezależnie od wielkości szkoły – aplikacja usprawni Twoją codzienną pracę. Dołącz do grona szkół, które stawiają na wygodę i nowoczesne rozwiązania!",
     "button": "Dowiedz się więcej"
   },
   "benefitsSection": {
     "h2": "Korzyści",
     "title1": "dla szkoły",
     "title2": "dla instruktora",
-    "title3": "dla kursanta"
+    "title3": "dla kursanta",
+    "card1": {
+      "li1": "Łatwe planowanie lekcji – umawiaj zajęcia w kilka sekund, przypisuj instruktorów do kursantów, sprawdzaj ich dostępność i twórz harmonogramy zajęć.",
+      "li2": "Przejrzysty terminarz – śledź harmonogram wszystkich instruktorów w jednym widoku, modyfikuj kolejność wyświetlania instruktorów oraz zakres widocznych godzin.",
+      "li3": "Kompletny wgląd w statystyki – monitoruj postępy kursantów, liczbę wyjeżdżonych godzin i historię zajęć.",
+      "li4": "Zarządzanie ludźmi – dodawaj instruktorów i kursantów, twórz notatki przypisując je do konkretnych osób, wyszukuj kursantów, dzwoń w wygodny sposób do wybranej osoby z poziomu aplikacji.",
+      "li5": "Łatwy dostęp do danych szkoły – uzupełnij podstawowe informacje, takie jak adres, numer telefonu czy e-mail, aby wszyscy użytkownicy mogli się z Tobą szybko skontaktować."
+    },
+    "card2": {
+      "li1": "Lista nadchodzących lekcji – szybki podgląd wszystkich zaplanowanych zajęć w jednym miejscu. Wygodne wybieranie numeru kursanta, dodawanie notatek do lekcji",
+      "li2": "Dostęp do terminarza szkoły – wygodne umawianie lekcji z innym instruktorem",
+      "li3": "Sprawdzanie statystyk swoich kursantów – wyszukiwanie kursantów oraz sprawdzanie statystyk ułatwia umawianie kolejnych lekcji",
+      "li4": "Szybki kontakt ze szkołą – dane kontaktowe w jednym miejscu, możliwość dzwonienia do szkoły z poziomu aplikacji"
+    },
+    "card3": {
+      "li1": "Harmonogram zajęć – wszystkie zaplanowane lekcje w jednym miejscu, tak aby kursant nie zapomniał o kolejnych jazdach.",
+      "li2": "Statystyki postępów – możliwość kontroli, ile godzin przejechał kursant i ile zostało mu do ukończenia kursu.",
+      "li3": "Łatwy kontakt ze szkołą – dane kontaktowe dostępne bezpośrednio w aplikacji ułatwiają komunikację.",
+      "li4": "Przypomnienia o lekcjach – dzięki powiadomieniom kursant otrzymuje przypomnienie o zbliżających się zajęciach."
+    }
+    
+
+    
   }
 }
