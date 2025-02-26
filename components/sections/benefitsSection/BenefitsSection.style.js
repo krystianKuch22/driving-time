@@ -53,15 +53,19 @@ export const StyledBenefitsSection = styled.section`
         }
         .text {
           color: ${(props) => props.theme.colors.benefitsSection.text};
+          
           ul {
             display: flex;
             flex-direction: column;
             gap: 2em;
             padding-left: 1em;
             color: ${(props) => props.theme.colors.benefitsSection.textColor};
+            list-style: "✔";
 
             li {
               font-size: 0.8rem;
+              padding-left: .5em;
+             
             }
           }
         }

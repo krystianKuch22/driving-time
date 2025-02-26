@@ -18,7 +18,25 @@ export const StyledRegisterForm = styled.form`
     }
   }
   label {
+    position: relative;
     width: 100%;
+
+    .error{
+      position: absolute;
+      bottom: 1em;
+      left: 2em;
+      color: red;
+      font-size: .6rem;
+
+    }
+
+    .errorTerms{
+      position: absolute;
+      bottom: -2em;
+      left: 0;
+
+      color: red;
+    }
   }
 
   input[type="checkbox"] {
@@ -43,11 +61,13 @@ export const StyledRegisterForm = styled.form`
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) rotateZ(10deg);
   }
 
   .checkbox-container {
+    position: relative;
     align-items: center;
+    margin-bottom: 2em;
   }
 
   .box1 {
@@ -94,6 +114,11 @@ export const StyledRegisterForm = styled.form`
       border-radius: 16px;
       border: none;
       cursor: pointer;
+
+      &:disabled{
+        background-color: gray;
+        cursor: auto;
+      }
     }
   }
 

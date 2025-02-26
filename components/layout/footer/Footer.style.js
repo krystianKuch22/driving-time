@@ -14,6 +14,7 @@ export const StyledFooter = styled.footer`
   h2 {
     padding-bottom: 1em;
     font-size: 1.1rem;
+    width: 40%;
 
     a {
       display: flex;
@@ -100,6 +101,10 @@ export const StyledFooter = styled.footer`
   }
 
   @media (min-width: 768px) {
+
+    h2{
+      width: 25%;
+    }
     .logo-container {
       h2 {
         font-size: 1.5rem;
@@ -126,9 +131,10 @@ export const StyledFooter = styled.footer`
         }
       } */
 
-        h2{
-          font-size: 1.5rem;
-        }
+      h2 {
+        width: 20%;
+        font-size: 1.5rem;
+      }
 
       .text-container {
         flex-direction: row;

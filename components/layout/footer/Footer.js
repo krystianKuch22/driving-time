@@ -6,15 +6,14 @@ export function Footer({ language }) {
   return (
     <StyledFooter>
       <div className="main-container">
-
-      <h2>
-        <Link href="#mainSection" className="logo-link">
-          <Image width={35} height={35} src="/png/logo.png" />
-          <span className="logo-text">
-            Driving <span className="second-part">Time</span>
-          </span>
-        </Link>
-      </h2>
+        <h2>
+          <Link href="#mainSection" className="logo-link">
+            <Image width={35} height={35} src="/png/logo.png" />
+            <span className="logo-text">
+              Driving <span className="second-part">Time</span>
+            </span>
+          </Link>
+        </h2>
         {/* <Link href="#mainSection" className="logo-container">
           <div className="logo-img">
             <Image
@@ -31,10 +30,8 @@ export function Footer({ language }) {
         <div className="text-container">
           <div className="colDiv">
             <p>
-              [informacje o autorze] Nulla venenatis elit egestas augue
-              imperdiet aliquet. Vivamus rhoncus vel tortor non tincidunt.
-              Suspendisse consectetur fringilla euismod. In et blandit purus,
-              quis sodales ante.
+              Intuicyjna aplikacja stworzona z myślą o ośrodkach szkolenia
+              kierowców, instruktorach oraz kursantach.
             </p>
           </div>
           <div className="deco">
@@ -53,7 +50,9 @@ export function Footer({ language }) {
           </div>
           <div className="col3">
             <Link href="#faqSection">FAQ</Link>
-            <Link href="#downloadSection" className="download-btn">Pobierz</Link>
+            <Link href="#downloadSection" className="download-btn">
+              Pobierz aplikację ze sklepu
+            </Link>
             <div></div>
           </div>
         </div>

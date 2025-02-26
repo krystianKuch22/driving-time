@@ -26,21 +26,11 @@ export default function BenefitsSection() {
             </div>
             <div className="text">
               <ul>
-                <li>
-                  Sed sed leo ultrices, sodales libero sed, molestie risus.
-                </li>
-                <li>
-                  Sed sed leo ultrices, sodales libero sed, molestie risus.
-                </li>
-                <li>
-                  Sed sed leo ultrices, sodales libero sed, molestie risus.
-                </li>
-                <li>
-                  Sed sed leo ultrices, sodales libero sed, molestie risus.
-                </li>
-                <li>
-                  Sed sed leo ultrices, sodales libero sed, molestie risus.
-                </li>
+                <li>{t("benefitsSection.card1.li1")}</li>
+                <li>{t("benefitsSection.card1.li2")}</li>
+                <li>{t("benefitsSection.card1.li3")}</li>
+                <li>{t("benefitsSection.card1.li4")}</li>
+                <li>{t("benefitsSection.card1.li5")}</li>
               </ul>
             </div>
           </div>
@@ -58,21 +48,10 @@ export default function BenefitsSection() {
             </div>
             <div className="text">
               <ul>
-                <li>
-                  Sed sed leo ultrices, sodales libero sed, molestie risus.
-                </li>
-                <li>
-                  Sed sed leo ultrices, sodales libero sed, molestie risus.
-                </li>
-                <li>
-                  Sed sed leo ultrices, sodales libero sed, molestie risus.
-                </li>
-                <li>
-                  Sed sed leo ultrices, sodales libero sed, molestie risus.
-                </li>
-                <li>
-                  Sed sed leo ultrices, sodales libero sed, molestie risus.
-                </li>
+                <li>{t("benefitsSection.card2.li1")}</li>
+                <li>{t("benefitsSection.card2.li2")}</li>
+                <li>{t("benefitsSection.card2.li3")}</li>
+                <li>{t("benefitsSection.card2.li4")}</li>
               </ul>
             </div>
           </div>
@@ -90,21 +69,10 @@ export default function BenefitsSection() {
             </div>
             <div className="text">
               <ul>
-                <li>
-                  Sed sed leo ultrices, sodales libero sed, molestie risus.
-                </li>
-                <li>
-                  Sed sed leo ultrices, sodales libero sed, molestie risus.
-                </li>
-                <li>
-                  Sed sed leo ultrices, sodales libero sed, molestie risus.
-                </li>
-                <li>
-                  Sed sed leo ultrices, sodales libero sed, molestie risus.
-                </li>
-                <li>
-                  Sed sed leo ultrices, sodales libero sed, molestie risus.
-                </li>
+                <li>{t("benefitsSection.card3.li1")}</li>
+                <li>{t("benefitsSection.card3.li2")}</li>
+                <li>{t("benefitsSection.card3.li3")}</li>
+                <li>{t("benefitsSection.card3.li4")}</li>
               </ul>
             </div>
           </div>

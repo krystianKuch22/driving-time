@@ -28,14 +28,19 @@ export const StyledRegisterSection = styled.section`
       }
 
       .paragraph {
+        position: relative;
         display: flex;
+        justify-content: space-between;
         align-items: center;
         gap: 1.5em;
-        height: 3em;
+        /* height: 3em; */
         .img-box {
+          
           position: relative;
-          width: 2em;
-          height: 2em;
+          flex-shrink: 0;
+
+          width: 40px;
+          height: 40px;
         }
       }
     }

@@ -57,6 +57,7 @@ export const StyledContactForm = styled.form`
     }
 
     .checkbox-container {
+      padding-bottom: 1em;
       label {
         width: 100%;
         display: flex;
@@ -156,6 +157,7 @@ export const StyledContactForm = styled.form`
     .info-container {
       flex-direction: row;
       align-items: center;
+      justify-content: space-between;
       padding-top: 1em;
       padding-right: 1em;
 
@@ -175,7 +177,7 @@ export const StyledContactForm = styled.form`
         width: 8em;
         height: 3em;
         font-size: 1rem;
-        border-radius: 0;
+        border-radius: 16px;
       }
     }
   }
