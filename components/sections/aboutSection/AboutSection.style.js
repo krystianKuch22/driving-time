@@ -5,7 +5,7 @@ export const StyledAboutSection = styled.section`
   justify-content: center;
   /* width: 100%; */
   min-height: 80vh;
-  padding: 2em 2em;
+  padding: 4em 2em;
   background: linear-gradient(135deg, #485bff 40.03%, #a687ff 99.92%);
   color: ${(props) => props.theme.colors.aboutSection.textColor};
   scroll-margin-top: 4em;
@@ -33,7 +33,7 @@ export const StyledAboutSection = styled.section`
         }
         .btn-container {
           display: flex;
-          justify-content: center;
+          justify-content: start;
           a {
             /* position: absolute; */
             /* left: 50%; */
@@ -58,7 +58,7 @@ export const StyledAboutSection = styled.section`
 
   @media (min-width: 768px) {
     min-height: 100vh;
-    padding: 2em 2em;
+    padding: 4em 2em;
     align-items: center;
 
     .main-container {
@@ -86,7 +86,7 @@ export const StyledAboutSection = styled.section`
 
   @media (min-width: 1200px) {
     min-height: 40vh;
-    padding: 2em 6em;
+    padding: 4em 6em;
     scroll-margin-top: 8em;
     .main-container {
       flex-direction: row;

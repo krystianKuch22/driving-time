@@ -8,14 +8,17 @@ export const StyledContactSection = styled.section`
   min-height: 100vh;
   background: linear-gradient(135deg, #485bff 40.03%, #a687ff 99.92%);
   text-align: center;
-  padding: 2em 0;
+  padding: 4em 2em;
   scroll-margin-top: 4em;
 
   h2 {
-    padding: 0 1em;
     color: #fff;
   }
   @media (min-width: 768px) {
     min-height: 100vh;
+  }
+
+  @media (min-width: 768px) {
+    padding: 4em 6em;
   }
 `;

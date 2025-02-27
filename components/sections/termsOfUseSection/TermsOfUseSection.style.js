@@ -5,7 +5,7 @@ export const StyledTermsOfUse = styled.section`
 
   text-align: justify;
 
-  color: white;
+  /* color: white; */
   h1 {
     text-align: center;
     padding-bottom: 1em;

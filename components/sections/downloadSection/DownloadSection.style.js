@@ -7,9 +7,7 @@ export const StyledDownloadSection = styled.section`
   min-height: 50vh;
   width: 100%;
   scroll-margin-top: 15em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-
+  padding: 4em 2em;
 
   .main-container {
     text-align: center;
@@ -40,22 +38,18 @@ export const StyledDownloadSection = styled.section`
           width: 185px;
           height: 55px;
         }
-
-        
       }
     }
   }
 
   @media (min-width: 768px) {
-    padding: 2em 4em;
+    padding: 4em 2em;
     .main-container {
       .btn-container {
         /* flex-direction: row; */
         gap: 4em;
 
         a {
-          
-
           div {
             position: relative;
             /* width: 175px; */
@@ -68,6 +62,7 @@ export const StyledDownloadSection = styled.section`
 
   @media (min-width: 1200px) {
     min-height: 40vh;
+    padding: 4em 6em;
 
     .main-container {
       .text-container {

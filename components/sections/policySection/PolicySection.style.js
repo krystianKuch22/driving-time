@@ -4,7 +4,7 @@ export const StyledPolicySection = styled.section`
   width: 100%;
   padding: 2em 2em;
   text-align: justify;
-  color: white;
+  /* color: white; */
 
   ol {
     padding-left: 1em;

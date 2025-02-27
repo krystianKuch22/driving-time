@@ -18,7 +18,10 @@ export default function MainSection() {
             <h2>{t("mainSection").h2}</h2>
             <p>{t("mainSection").paragraph}</p>
             <div className="btn-container">
-              <Link href="#registerSection"> {t("mainSection").button}</Link>
+              <Link href="#contactSection"> 
+              {/* {t("mainSection").button} */}
+              Napisz do nas!
+              </Link>
             </div>
           </div>
         </div>

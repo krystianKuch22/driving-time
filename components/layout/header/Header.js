@@ -55,15 +55,15 @@ export function Header() {
         <Link href="/#benefitSection" onClick={showMenu}>
           {t("menu2")}
         </Link>
-        <Link href="/#demoSection" onClick={showMenu}>
+        {/* <Link href="/#demoSection" onClick={showMenu}>
           {t("menu3")}
-        </Link>
+        </Link> */}
         <Link href="/#downloadSection" onClick={showMenu}>
           {t("menu6")}
         </Link>
-        <Link href="/#faqSection" onClick={showMenu}>
+        {/* <Link href="/#faqSection" onClick={showMenu}>
           {t("menu4")}
-        </Link>
+        </Link> */}
         <Link href="/#contactSection" onClick={showMenu}>
           {t("menu5")}
         </Link>
