@@ -47,7 +47,8 @@ export default function ContactForm() {
 
   return (
     <StyledContactForm onSubmit={handleSubmit}>
-      <h2>Kontakt</h2>
+      <h2>Wkrótce ruszy otwarta rejestracje.</h2>
+      <h2>Napisz do nas aby korzystać już dzisiaj!</h2>
       <div className="userData">
         <label>
           <input

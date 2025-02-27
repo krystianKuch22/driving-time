@@ -3,13 +3,15 @@ import styled from "styled-components";
 export const StyledContactForm = styled.form`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: center;
-  padding: 1em 2em;
+  /* padding: 1em 2em; */
   width: 100%;
 
   h2 {
     font-size: 2rem;
+    text-align: left;
+    padding-left: 0;
   }
 
   label {
@@ -118,7 +120,7 @@ export const StyledContactForm = styled.form`
   }
   @media (min-width: 768px) {
     h2 {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
 
 

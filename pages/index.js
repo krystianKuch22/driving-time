@@ -33,10 +33,10 @@ export default function Home() {
       <MainSection />
       <AboutSection />
       <BenefitsSection />
-      <DemoSection />
+      {/* <DemoSection /> */}
       <DownloadSection />
-      <RegisterSection />
-      <FaqSection />
+      {/* <RegisterSection /> */}
+      {/* <FaqSection /> */}
       <ContactSection />
       <Footer language={t} />
 

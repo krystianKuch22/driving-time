@@ -7,7 +7,7 @@ export const StyledMainSection = styled.section`
   justify-content: center;
   width: 100%;
   min-height: 110vh;
-  padding: 0 2.5em;
+  padding: 0 2em;
   background-color: ${(props) => props.theme.colors.mainSection.mainBackground};
   color: white;
 
@@ -90,7 +90,6 @@ export const StyledMainSection = styled.section`
   }
 
   @media (min-width: 768px) {
-    font-size: 1.5rem;
     padding-top: 6em;
     padding-bottom: 4em;
     width: 100%;

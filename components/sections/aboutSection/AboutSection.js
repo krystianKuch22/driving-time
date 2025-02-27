@@ -14,9 +14,9 @@ export default function AboutSection() {
             <h2>{t("aboutSection").h2}</h2>
             <p>{t("aboutSection").paragraph1}</p>
             <p>{t("aboutSection").paragraph2}</p>
-            <div className="btn-container">
+            {/* <div className="btn-container">
               <Link href="#demoSection">{t("aboutSection").button}</Link>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="about-img">

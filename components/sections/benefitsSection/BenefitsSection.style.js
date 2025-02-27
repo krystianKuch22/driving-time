@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 export const StyledBenefitsSection = styled.section`
-  padding: 6em 1em;
+  padding: 4em 2em;
   background-color: ${(props) =>
     props.theme.colors.benefitsSection.mainBackground};
   min-height: 100vh;
   margin-bottom: -1px;
+  scroll-margin-top: 4em;
 
   .main-container {
     display: flex;
@@ -77,7 +78,7 @@ export const StyledBenefitsSection = styled.section`
     .main-container .benefits-container {
       gap: 3em;
       .card {
-        width: 35em;
+        width: 50%;
 
         .title {
           font-size: 1.9rem;
@@ -107,8 +108,10 @@ export const StyledBenefitsSection = styled.section`
       .benefits-container {
         flex-direction: row;
         justify-content: space-between;
+        gap: 6em;
         width: 100%;
         .card {
+          width: 50%;
           padding: 3em 2em;
 
           .text {
