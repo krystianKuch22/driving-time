@@ -6,13 +6,13 @@ import LoadingScreen from "@/components/layout/loading/LoadingScreen";
 export default function TermsOfUseSection() {
   const { t, loading } = useLanguage("termsOfUse");
 
-  useEffect(() => {
-    if (loading) {
-      document.body.style.overflow = "hidden";
-    } else {
-      setTimeout(() => (document.body.style.overflow = ""), 1000);
-    }
-  }, [loading]);
+  // useEffect(() => {
+  //   if (loading) {
+  //     document.body.style.overflow = "hidden";
+  //   } else {
+  //     setTimeout(() => (document.body.style.overflow = ""), 1000);
+  //   }
+  // }, [loading]);
 
   return (
     <>

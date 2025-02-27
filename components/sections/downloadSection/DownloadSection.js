@@ -14,7 +14,7 @@ export default function DownloadSection() {
             <div>
               <Image
                 src="/badges/appStore.svg"
-                alt="Image of home"
+                alt="Image of App Store Badge"
                 fill
                 style={{ objectFit: "contain" }}
               />

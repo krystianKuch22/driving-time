@@ -92,9 +92,10 @@ export const StyledHeader = styled.header`
       justify-content: end;
       height: 2em;
       flex-shrink: 0.6;
-      gap: 2em;
+      gap: 1.5em;
 
       a {
+        flex-shrink: 0;
         font-size: 0.9rem;
       }
 

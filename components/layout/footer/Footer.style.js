@@ -69,6 +69,7 @@ export const StyledFooter = styled.footer`
     .col3 {
       display: flex;
       flex-direction: column;
+      flex-shrink: 0;
       gap: 1em;
       font-size: 0.8rem;
 
