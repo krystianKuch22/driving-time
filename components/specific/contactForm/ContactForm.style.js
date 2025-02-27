@@ -9,7 +9,7 @@ export const StyledContactForm = styled.form`
   width: 100%;
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-align: left;
     padding-left: 0;
   }
@@ -39,6 +39,7 @@ export const StyledContactForm = styled.form`
       border: none;
       border-bottom: solid 1px white;
       max-width: 100%;
+      min-width: 100%;
     
 
       &::placeholder {
@@ -120,7 +121,7 @@ export const StyledContactForm = styled.form`
   }
   @media (min-width: 768px) {
     h2 {
-      font-size: 2.5rem;
+      font-size: 1.8rem;
     }
 
 
@@ -146,9 +147,10 @@ export const StyledContactForm = styled.form`
   }
 
   @media (min-width: 1200px) {
-    width: 50%;
+    width: 60%;
 
     h2 {
+      font-size: 1.8rem;
       padding-bottom: 1em;
     }
 

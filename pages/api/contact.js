@@ -2,10 +2,10 @@ import nodemailer from "nodemailer";
 
 export default async function handler(req, res) {
   if (req.method === "POST") {
-    const { name, email, message } = req.body;
+    const { phone, email, message } = req.body;
 
     // Prosta walidacja
-    if (!name || !email || !message) {
+    if (!phone || !email || !message) {
       return res.status(400).json({ message: "All fields are required." });
     }
 
@@ -23,9 +23,9 @@ export default async function handler(req, res) {
       await transporter.sendMail({
         from: email, // Adres nadawcy (email od użytkownika)
         to: process.env.EMAIL_USER, // Twój adres e-mail (odbiorca)
-        subject: `New Contact Form Submission from ${name}`,
+        subject: `New Contact Form Submission from ${phone}`,
         text: message, // Treść wiadomości
-        html: `<p><strong>Name:</strong> ${name}</p>
+        html: `<p><strong>Phone:</strong> ${phone}</p>
                <p><strong>Email:</strong> ${email}</p>
                <p><strong>Message:</strong></p>
                <p>${message}</p>`, // Opcjonalnie: HTML wiadomości

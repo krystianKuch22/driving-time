@@ -3,13 +3,14 @@ import { StyledContactForm } from "./ContactForm.style";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
-    name: "",
+    phone: "",
     email: "",
     message: "",
     agree: false,
   });
 
   const [status, setStatus] = useState("");
+  const [errors, setErrors] = useState({});
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -19,8 +20,30 @@ export default function ContactForm() {
     });
   };
 
+  const validateForm = () => {
+    let newErrors = {};
+
+    // Walidacja email
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!formData.email.trim()) {
+      newErrors.email = "Email jest wymagany.";
+    } else if (!emailRegex.test(formData.email)) {
+      newErrors.email = "Podaj poprawny adres email.";
+    }
+
+    const phoneRegex = /^\+?[1-9]\d{1,14}$/; // Międzynarodowy format E.164
+    if (!phoneRegex.test(formData.phone)) {
+      setErrors("Nieprawidłowy numer telefonu.");
+    }
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0; // Zwraca true, jeśli brak błędów
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    validateForm();
+    console.log(errors);
     setStatus("Sending...");
 
     try {
@@ -33,7 +56,7 @@ export default function ContactForm() {
       });
 
       if (response.ok) {
-        setFormData({ name: "", email: "", message: "" });
+        setFormData({ phone: "", email: "", message: "" });
         setStatus("Message sent successfully!");
       } else {
         setStatus("Failed to send message.");
@@ -43,31 +66,31 @@ export default function ContactForm() {
     }
   };
 
-  console.log(formData);
-
   return (
     <StyledContactForm onSubmit={handleSubmit}>
-      <h2>Wkrótce ruszy otwarta rejestracje.</h2>
       <h2>Napisz do nas aby korzystać już dzisiaj!</h2>
       <div className="userData">
         <label>
           <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Imię*"
-            value={formData.name}
+            type="email"
+            id="email"
+            name="email"
+            placeholder="E-mail"
+            value={formData.email}
             onChange={handleChange}
             required
           />
         </label>
         <label>
           <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="e-mail*"
-            value={formData.email}
+            type="tel"
+            id="phone"
+            name="phone"
+            pattern="^\+?[1-0]\d{1,14}$"
+            placeholder="Numer telefonu"
+            minLength={9}
+            maxLength={15}
+            value={formData.name}
             onChange={handleChange}
             required
           />
@@ -86,7 +109,7 @@ export default function ContactForm() {
       </label>
       <div className="info-container">
         <div className="checkbox-container">
-          <p>*wymagane uzupełnienie</p>
+          {/* <p>*wymagane uzupełnienie</p> */}
           {/* <label>
             <div>
               <input
@@ -107,7 +130,7 @@ export default function ContactForm() {
         </div>
         <button type="submit">Wyślij</button>
       </div>
-      <p>{status}</p>
+      {/* <p>{status}</p> */}
     </StyledContactForm>
   );
 }

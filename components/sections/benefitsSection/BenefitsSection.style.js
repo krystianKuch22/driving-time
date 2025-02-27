@@ -61,7 +61,7 @@ export const StyledBenefitsSection = styled.section`
             gap: 2em;
             padding-left: 1em;
             color: ${(props) => props.theme.colors.benefitsSection.textColor};
-            list-style: "✔";
+            
 
             li {
               font-size: 0.8rem;

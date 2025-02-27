@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledPolicySection = styled.section`
   width: 100%;
-  padding: 2em 2em;
+  padding: 6em 2em;
   text-align: justify;
   /* color: white; */
 
@@ -37,8 +37,6 @@ export const StyledPolicySection = styled.section`
   }
 
   @media screen and (min-width: 768px) {
-    padding: 2em;
-
     h1 {
       padding: 1em 0;
     }
@@ -52,7 +50,7 @@ export const StyledPolicySection = styled.section`
     }
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1200px) {
     width: 70%;
   }
 
