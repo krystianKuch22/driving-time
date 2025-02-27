@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const StyledPolicySection = styled.section`
-  width: 50%;
+  width: 100%;
   padding: 2em 2em;
   text-align: justify;
+  color: white;
 
   ol {
     padding-left: 1em;
@@ -35,20 +36,24 @@ export const StyledPolicySection = styled.section`
     word-break: break-word;
   }
 
-  @media screen and (max-width: 600px) {
-    padding: 0;
-    width: 100%;
+  @media screen and (min-width: 768px) {
+    padding: 2em;
+
+    h1 {
+      padding: 1em 0;
+    }
+
+    h2 {
+      padding: 1em 0;
+    }
+
+    h3 {
+      padding: 1em 0;
+    }
   }
 
-  h1{
-    padding: 1em 0;
+  @media screen and (min-width: 768px) {
+    width: 70%;
   }
 
-  h2{
-    padding: 1em 0;
-  }
-
-  h3{
-    padding: 1em 0;
-  }
 `;

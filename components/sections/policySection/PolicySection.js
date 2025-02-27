@@ -6,13 +6,13 @@ import { useEffect } from "react";
 export default function PolicySection() {
   const { t, loading } = useLanguage("policyPrivacy");
 
-  useEffect(() => {
-    if (loading) {
-      document.body.style.overflow = "hidden";
-    } else {
-      setTimeout(() => (document.body.style.overflow = ""), 1000);
-    }
-  }, [loading]);
+  // useEffect(() => {
+  //   if (loading) {
+  //     document.body.style.overflow = "hidden";
+  //   } else {
+  //     setTimeout(() => (document.body.style.overflow = ""), 1000);
+  //   }
+  // }, [loading]);
 
   return (
     <StyledPolicySection>

@@ -38,8 +38,10 @@ export const StyledDownloadSection = styled.section`
         div {
           position: relative;
           width: 185px;
-          height: 60px;
+          height: 55px;
         }
+
+        
       }
     }
   }
@@ -56,8 +58,8 @@ export const StyledDownloadSection = styled.section`
 
           div {
             position: relative;
-            width: 175px;
-            height: 60px;
+            /* width: 175px; */
+            /* height: 60px; */
           }
         }
       }
@@ -78,8 +80,8 @@ export const StyledDownloadSection = styled.section`
         flex-direction: row;
         gap: 3em;
         a {
-          width: 14em;
-          height: 4em;
+          /* width: 14em; */
+          /* height: 4em; */
         }
       }
     }
