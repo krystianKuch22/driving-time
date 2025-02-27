@@ -38,6 +38,8 @@ export const StyledDownloadSection = styled.section`
           width: 185px;
           height: 55px;
         }
+
+        
       }
     }
   }
