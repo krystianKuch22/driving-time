@@ -5,7 +5,6 @@ export const StyledPolicySection = styled.section`
   padding: 6em 2em;
   text-align: justify;
   /* color: white; */
-
   ol {
     padding-left: 1em;
   }
