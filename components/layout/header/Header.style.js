@@ -67,7 +67,7 @@ export const StyledHeader = styled.header`
     }
 
     .menu-btns{
-      font-size: 2rem;
+      font-size: 1.6rem;
     }
   }
 
