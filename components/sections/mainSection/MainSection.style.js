@@ -89,6 +89,10 @@ export const StyledMainSection = styled.section`
     );
   }
 
+  @media (min-width: 650px) {
+    padding: 6em 2em;
+  }
+
   @media (min-width: 768px) {
     padding-top: 6em;
     padding-bottom: 4em;
