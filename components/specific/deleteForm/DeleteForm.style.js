@@ -11,24 +11,49 @@ export const StyledDeleteForm = styled.form`
 
   label {
     width: 100%;
+    padding: 1em 1em 1em 0;
 
     input {
       width: 100%;
-      background-color: #4c4c4c;
-      color: #fff;
+      background: none;
+      color: white;
       padding: 1em 1.5em;
       border: none;
-      border-radius: 8px;
+      border-bottom: solid 1px white;
+
+      &::placeholder {
+        color: white;
+      }
+    }
+    textArea {
+      width: 100%;
+      min-height: 15em;
+      background: none;
+      color: white;
+      padding: 1em 1.5em;
+      border: none;
+      border-bottom: solid 1px white;
+      max-width: 100%;
+      min-width: 100%;
+
+      &::placeholder {
+        color: white;
+      }
     }
   }
 
   button {
     background: none;
     border: none;
-    background-color: #0c0c0c;
-    padding: 1em 2em;
+    background-color: white;
+    padding: 1em 1.5em;
     border-radius: 8px;
-    color: #fff;
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-weight: bold;
+    font-size: 0.8rem;
+    cursor: pointer;
   }
 
   .accountDelete {
@@ -44,9 +69,16 @@ export const StyledDeleteForm = styled.form`
 
   @media (min-width: 768px) {
     width: 80%;
+
+    button {
+      width: 50%;
+    }
   }
 
   @media (min-width: 1200px) {
     width: 60%;
+    button {
+      width: 30%;
+    }
   }
 `;

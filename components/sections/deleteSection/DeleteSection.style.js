@@ -5,6 +5,6 @@ export const StyledDeleteSection = styled.section`
   justify-content: center;
   padding-top: 4em;
   height: 88vh;
-  background-color: #2c2c2c;
+  background: linear-gradient(135deg, #485bff 40.03%, #a687ff 99.92%);
   color: #fff;
 `;

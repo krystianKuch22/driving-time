@@ -54,14 +54,16 @@ export function Footer({ language }) {
             <Link href="/#downloadSection" className="download-btn">
               Pobierz aplikację ze sklepu
             </Link>
+            <Link href="/privacy-policy">Polityka prywatności</Link>
+            <Link href="/terms-of-use">Regulamin</Link>
             <div></div>
           </div>
         </div>
       </div>
-      <div className="under-footer">
+      {/* <div className="under-footer">
         <Link href="/privacy-policy">Polityka prywatności</Link>
         <Link href="/terms-of-use">Regulamin</Link>
-      </div>
+      </div> */}
     </StyledFooter>
   );
 }
