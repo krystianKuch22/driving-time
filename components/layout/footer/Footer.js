@@ -40,16 +40,17 @@ export function Footer({ language }) {
           <div className="col1">
             <Link href="/#mainSection">O aplikacji</Link>
             <Link href="/#benefitSection">Dlaczego warto</Link>
-            <Link href="/#demoSection">Zobacz aplikację</Link>
+            <Link href="/#contactSection">Kontakt</Link>
+            {/* <Link href="/#demoSection">Zobacz aplikację</Link> */}
           </div>
           <div className="col2">
             {/* <Link href="/">Informacje o płatnościach</Link> */}
-            <Link href="/#registerSection">Rejestracja szkoły</Link>
-            <Link href="/#contactSection">Kontakt</Link>
+            {/* <Link href="/#registerSection">Rejestracja szkoły</Link> */}
+
             <div></div>
           </div>
           <div className="col3">
-            <Link href="/#faqSection">FAQ</Link>
+            {/* <Link href="/#faqSection">FAQ</Link> */}
             <Link href="/#downloadSection" className="download-btn">
               Pobierz aplikację ze sklepu
             </Link>

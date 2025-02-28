@@ -9,7 +9,7 @@ import { useRouter } from "next/router";
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const { t } = useLanguage("common");
-  const router = useRouter()
+  const router = useRouter();
   const [width, setWidth] = useState(0);
 
   useEffect(() => {
@@ -48,26 +48,30 @@ export function Header() {
         </h2>
         <BurgerButton showMenu={showMenu} isOpen={isOpen} />
       </div>
-      <div className="menu-btns">
-        <Link href="/#aboutSection" onClick={showMenu}>
-          {t("menu1")}
-        </Link>
-        <Link href="/#benefitSection" onClick={showMenu}>
-          {t("menu2")}
-        </Link>
-        {/* <Link href="/#demoSection" onClick={showMenu}>
+      {router.pathname == "/" ? (
+        <div className="menu-btns">
+          <Link href="/#aboutSection" onClick={showMenu}>
+            {t("menu1")}
+          </Link>
+          <Link href="/#benefitSection" onClick={showMenu}>
+            {t("menu2")}
+          </Link>
+          {/* <Link href="/#demoSection" onClick={showMenu}>
           {t("menu3")}
         </Link> */}
-        <Link href="/#downloadSection" onClick={showMenu}>
-          {t("menu6")}
-        </Link>
-        {/* <Link href="/#faqSection" onClick={showMenu}>
+          <Link href="/#downloadSection" onClick={showMenu}>
+            {t("menu6")}
+          </Link>
+          {/* <Link href="/#faqSection" onClick={showMenu}>
           {t("menu4")}
         </Link> */}
-        <Link href="/#contactSection" onClick={showMenu}>
-          {t("menu5")}
-        </Link>
-      </div>
+          <Link href="/#contactSection" onClick={showMenu}>
+            {t("menu5")}
+          </Link>
+        </div>
+      ) : (
+        <></>
+      )}
     </StyledHeader>
   );
 }

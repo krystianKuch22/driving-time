@@ -4,7 +4,7 @@ export const StyledAboutSection = styled.section`
   display: flex;
   justify-content: center;
   /* width: 100%; */
-  min-height: 80vh;
+  /* min-height: 80vh; */
   padding: 4em 2em;
   background: linear-gradient(135deg, #485bff 40.03%, #a687ff 99.92%);
   color: ${(props) => props.theme.colors.aboutSection.textColor};
