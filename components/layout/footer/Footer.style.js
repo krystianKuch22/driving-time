@@ -172,7 +172,7 @@ export const StyledFooter = styled.footer`
           font-size: 1rem;
 
           .download-btn {
-            color: #a2acfe;
+            /* color: #a2acfe; */
           }
 
           div {
