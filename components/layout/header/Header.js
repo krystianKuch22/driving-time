@@ -48,7 +48,6 @@ export function Header() {
         </h2>
         <BurgerButton showMenu={showMenu} isOpen={isOpen} />
       </div>
-
       {router.pathname == "/" ? (
         <div className="menu-btns">
           <Link href="/#aboutSection" onClick={showMenu}>
