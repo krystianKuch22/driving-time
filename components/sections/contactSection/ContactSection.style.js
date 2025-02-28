@@ -21,4 +21,8 @@ export const StyledContactSection = styled.section`
   @media (min-width: 768px) {
     padding: 4em 6em;
   }
+
+  @media (min-width: 768px) {
+    padding: 4em 6em;
+  }
 `;
