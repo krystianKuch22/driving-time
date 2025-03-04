@@ -9,6 +9,9 @@ const nextConfig = {
     defaultLocale: "pl", // Domyślny język
     localeDetection: false,
   },
+  experimental: {
+    scrollRestoration: false,
+  },
 };
 
 export default nextConfig;

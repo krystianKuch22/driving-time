@@ -5,14 +5,25 @@ export const StyledContactSection = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 80%;
-  background-color: #2c2c2c;
+  /* min-height: 100vh; */
+  background: linear-gradient(135deg, #485bff 40.03%, #a687ff 99.92%);
   text-align: center;
-  padding: 5em 2em;
+  padding: 4em 2em;
+  scroll-margin-top: 4em;
 
   h2 {
-    padding: 0 1em;
     color: #fff;
-    
+  }
+  @media (min-width: 768px) {
+    /* min-height: 100vh; */
+  }
+
+  @media (min-width: 768px) {
+    padding: 4em 6em;
+  }
+
+  @media (min-width: 768px) {
+    padding: 4em 6em;
+    scroll-margin-top: 12em;
   }
 `;

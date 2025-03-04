@@ -2,5 +2,52 @@
   "privacyPolicy": "Polityka prywatności",
   "termsOfUse": "Regulamin",
   "hello": "Witam",
-  "delete": "Usuń konto"
+  "delete": "Usuń konto",
+  "menu1": "O aplikacji",
+  "menu2": "Dlaczego warto?",
+  "menu3": "Zobacz aplikację",
+  "menu4": "FAQ",
+  "menu5": "Kontakt",
+  "menu6": "Pobierz",
+  "mainSection": {
+    "h2": "łączy szkołę, instruktora i kursanta",
+    "paragraph": "Intuicyjna aplikacja stworzona z myślą o ośrodkach szkolenia kierowców, instruktorach oraz kursantach. Dzięki niej organizacja zajęć staje się prostsza, szybsza i bardziej przejrzysta. Umawiaj lekcje jazdy, monitoruj postępy kursantów i usprawniaj komunikację – wszystko w jednym miejscu!",
+    "button": "Zarejestruj szkołę"
+  },
+  "aboutSection": {
+    "h2": "Driving Time to klucz do sprawnej organizacji nauki jazdy",
+    "paragraph1": "Pobierz aplikację i zarządzaj lekcjami w nowoczesny i efektywny sposób! Oszczędzaj czas i zwiększ efektywność pracy szkoły jazdy",
+    "paragraph2": "Dzięki Driving Time lekcje są lepiej zorganizowane, a komunikacja między szkołą, instruktorami i kursantami przebiega płynnie. Niezależnie od wielkości szkoły – aplikacja usprawni Twoją codzienną pracę. Dołącz do grona szkół, które stawiają na wygodę i nowoczesne rozwiązania!",
+    "button": "Dowiedz się więcej"
+  },
+  "benefitsSection": {
+    "h2": "Korzyści",
+    "title1": "dla szkoły",
+    "title2": "dla instruktora",
+    "title3": "dla kursanta",
+    "card1": {
+      "li1": "Przejrzysty harmonogram pracy instruktorów i zajęć kursantów",
+      "li2": "Łatwe zarządzanie lekcjami jazdy (dodawanie, usuwanie, edycja)",
+      "li3": "Dostęp do aplikacji na komputerze oraz urządzeniu mobilnym",
+      "li4": "Rejestr instruktorów i kursantów",
+      "li5": "Tworzenie notatek",
+      "li6": "Kompletny wgląd w historię i statystyki",
+      "li7": "Wygodne przekierowanie do połączeń telefonicznych w celu szybkiego skontaktowania się z instruktorami i kursantami"
+    },
+    "card2": {
+      "li1": "Lista nadchodzących lekcji",
+      "li2": "Możliwość umawiania lekcji na prośbę kursanta",
+      "li3": "Dostęp do terminarza szkoły",
+      "li4": "Wygodne przekierowanie do połączeń telefonicznych w celu szybkiego skontaktowania się ze szkołą i kursantami",
+      "li5": "Tworzenie notatek",
+      "li6": "Podgląd statystyk kursantów"
+    },
+    "card3": {
+      "li1": "Podgląd harmonogramu zajęć",
+      "li2": "Przypomnienia o zbliżających się lekcjach",
+      "li3": "Statystyki postępów",
+      "li4": "Ćwiczenia testowe do egzaminu",
+      "li5": "Łatwy kontakt ze szkołą"
+    }
+  }
 }
