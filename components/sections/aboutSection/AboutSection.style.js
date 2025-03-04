@@ -25,7 +25,15 @@ export const StyledAboutSection = styled.section`
         padding-bottom: 3em;
         h2 {
           font-size: 1rem;
-          padding-bottom: 0.8em;
+          padding-bottom: 1em;
+        }
+        ul {
+          margin-left: 1em;
+          margin-bottom: 2em;
+
+          li {
+            font-size: 0.8rem;
+          }
         }
         p {
           padding-bottom: 2em;
@@ -68,6 +76,11 @@ export const StyledAboutSection = styled.section`
           h2 {
             font-size: 2rem;
           }
+          ul {
+            li {
+              font-size: 1.2rem;
+            }
+          }
           p {
             font-size: 1.2rem;
           }
@@ -87,7 +100,7 @@ export const StyledAboutSection = styled.section`
   @media (min-width: 1200px) {
     min-height: 40vh;
     padding: 4em 6em;
-    scroll-margin-top: 8em;
+    /* scroll-margin-top: 14em; */
     .main-container {
       flex-direction: row;
       justify-content: space-between;
@@ -102,7 +115,11 @@ export const StyledAboutSection = styled.section`
           h2 {
             font-size: 2rem;
           }
-
+          ul {
+            li {
+              font-size: 1.3rem;
+            }
+          }
           p {
             font-size: 1.3rem;
           }
