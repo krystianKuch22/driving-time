@@ -11,7 +11,7 @@
   "menu6": "Pobierz",
   "mainSection": {
     "h2": "łączy szkołę, instruktora i kursanta",
-    "paragraph": "Intuicyjna aplikacja stworzona z myślą o ośrodkach szkolenia kierowców, instruktorach oraz kursantach. Dzięki niej organizacja zajęć staje się prostsza, szybsza i bardziej przejrzysta. Zarządzaj harmonogramem, monitoruj postępy kursantów i usprawniaj komunikację – wszystko w jednym miejscu!",
+    "paragraph": "Intuicyjna aplikacja stworzona z myślą o ośrodkach szkolenia kierowców, instruktorach oraz kursantach. Dzięki niej organizacja zajęć staje się prostsza, szybsza i bardziej przejrzysta. Umawiaj lekcje jazdy, monitoruj postępy kursantów i usprawniaj komunikację – wszystko w jednym miejscu!",
     "button": "Zarejestruj szkołę"
   },
   "aboutSection": {
@@ -26,26 +26,28 @@
     "title2": "dla instruktora",
     "title3": "dla kursanta",
     "card1": {
-      "li1": "Łatwe planowanie lekcji – umawiaj zajęcia w kilka sekund, przypisuj instruktorów do kursantów, sprawdzaj ich dostępność i twórz harmonogramy zajęć.",
-      "li2": "Przejrzysty terminarz – śledź harmonogram wszystkich instruktorów w jednym widoku, modyfikuj kolejność wyświetlania instruktorów oraz zakres widocznych godzin.",
-      "li3": "Kompletny wgląd w statystyki – monitoruj postępy kursantów, liczbę wyjeżdżonych godzin i historię zajęć.",
-      "li4": "Zarządzanie ludźmi – dodawaj instruktorów i kursantów, twórz notatki przypisując je do konkretnych osób, wyszukuj kursantów, dzwoń w wygodny sposób do wybranej osoby z poziomu aplikacji.",
-      "li5": "Łatwy dostęp do danych szkoły – uzupełnij podstawowe informacje, takie jak adres, numer telefonu czy e-mail, aby wszyscy użytkownicy mogli się z Tobą szybko skontaktować."
+      "li1": "Przejrzysty harmonogram pracy instruktorów i zajęć kursantów",
+      "li2": "Łatwe zarządzanie lekcjami jazdy (dodawanie, usuwanie, edycja)",
+      "li3": "Dostęp do aplikacji na komputerze oraz urządzeniu mobilnym",
+      "li4": "Rejestr instruktorów i kursantów",
+      "li5": "Tworzenie notatek",
+      "li6": "Kompletny wgląd w historię i statystyki",
+      "li7": "Wygodne przekierowanie do połączeń telefonicznych w celu szybkiego skontaktowania się z instruktorami i kursantami"
     },
     "card2": {
-      "li1": "Lista nadchodzących lekcji – szybki podgląd wszystkich zaplanowanych zajęć w jednym miejscu. Wygodne wybieranie numeru kursanta, dodawanie notatek do lekcji",
-      "li2": "Dostęp do terminarza szkoły – wygodne umawianie lekcji z innym instruktorem",
-      "li3": "Sprawdzanie statystyk swoich kursantów – wyszukiwanie kursantów oraz sprawdzanie statystyk ułatwia umawianie kolejnych lekcji",
-      "li4": "Szybki kontakt ze szkołą – dane kontaktowe w jednym miejscu, możliwość dzwonienia do szkoły z poziomu aplikacji"
+      "li1": "Lista nadchodzących lekcji",
+      "li2": "Możliwość umawiania lekcji na prośbę kursanta",
+      "li3": "Dostęp do terminarza szkoły",
+      "li4": "Wygodne przekierowanie do połączeń telefonicznych w celu szybkiego skontaktowania się ze szkołą i kursantami",
+      "li5": "Tworzenie notatek",
+      "li6": "Podgląd statystyk kursantów"
     },
     "card3": {
-      "li1": "Harmonogram zajęć – wszystkie zaplanowane lekcje w jednym miejscu, tak aby kursant nie zapomniał o kolejnych jazdach.",
-      "li2": "Statystyki postępów – możliwość kontroli, ile godzin przejechał kursant i ile zostało mu do ukończenia kursu.",
-      "li3": "Łatwy kontakt ze szkołą – dane kontaktowe dostępne bezpośrednio w aplikacji ułatwiają komunikację.",
-      "li4": "Przypomnienia o lekcjach – dzięki powiadomieniom kursant otrzymuje przypomnienie o zbliżających się zajęciach."
+      "li1": "Podgląd harmonogramu zajęć",
+      "li2": "Przypomnienia o zbliżających się lekcjach",
+      "li3": "Statystyki postępów",
+      "li4": "Ćwiczenia testowe do egzaminu",
+      "li5": "Łatwy kontakt ze szkołą"
     }
-    
-
-    
   }
 }

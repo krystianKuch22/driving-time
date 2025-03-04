@@ -24,5 +24,6 @@ export const StyledContactSection = styled.section`
 
   @media (min-width: 768px) {
     padding: 4em 6em;
+    scroll-margin-top: 12em;
   }
 `;

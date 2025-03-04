@@ -31,6 +31,8 @@ export default function BenefitsSection() {
                 <li>{t("benefitsSection.card1.li3")}</li>
                 <li>{t("benefitsSection.card1.li4")}</li>
                 <li>{t("benefitsSection.card1.li5")}</li>
+                <li>{t("benefitsSection.card1.li6")}</li>
+                <li>{t("benefitsSection.card1.li7")}</li>
               </ul>
             </div>
           </div>
@@ -52,6 +54,8 @@ export default function BenefitsSection() {
                 <li>{t("benefitsSection.card2.li2")}</li>
                 <li>{t("benefitsSection.card2.li3")}</li>
                 <li>{t("benefitsSection.card2.li4")}</li>
+                <li>{t("benefitsSection.card2.li5")}</li>
+                <li>{t("benefitsSection.card2.li6")}</li>
               </ul>
             </div>
           </div>
@@ -73,6 +77,7 @@ export default function BenefitsSection() {
                 <li>{t("benefitsSection.card3.li2")}</li>
                 <li>{t("benefitsSection.card3.li3")}</li>
                 <li>{t("benefitsSection.card3.li4")}</li>
+                <li>{t("benefitsSection.card3.li5")}</li>
               </ul>
             </div>
           </div>

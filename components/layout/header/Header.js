@@ -40,7 +40,7 @@ export function Header() {
       <div className="logo-burger-container">
         <h2>
           <Link href="/#mainSection" className="logo-link">
-            <Image width={35} height={35} src="/png/logo.png" />
+            <Image width={35} height={35} src="/png/logo.png" alt="Logo image" />
             <span className="logo-text">
               Driving <span className="second-part">Time</span>
             </span>

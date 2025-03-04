@@ -31,6 +31,7 @@ export const StyledBenefitsSection = styled.section`
         flex-direction: column;
         align-items: center;
         width: 25em;
+        min-height: 40em;
         border: solid 1px #a2acfe;
         padding: 1em 2em;
         font-size: 0.7rem;
@@ -58,14 +59,14 @@ export const StyledBenefitsSection = styled.section`
           ul {
             display: flex;
             flex-direction: column;
-            gap: 2em;
+            gap: 1.5em;
             padding-left: 1em;
             color: ${(props) => props.theme.colors.benefitsSection.textColor};
             
 
             li {
               font-size: 0.8rem;
-              padding-left: .5em;
+              
              
             }
           }
@@ -79,6 +80,7 @@ export const StyledBenefitsSection = styled.section`
       gap: 3em;
       .card {
         width: 50%;
+        min-height: 55em;
 
         .title {
           font-size: 1.9rem;
@@ -102,16 +104,21 @@ export const StyledBenefitsSection = styled.section`
   }
 
   @media (min-width: 1200px) {
+    min-height: 120vh;
     padding: 4em 6em;
     scroll-margin-top: 4em;
     .main-container {
       .benefits-container {
+        
         flex-direction: row;
         justify-content: space-between;
+        align-items: stretch;
         gap: 6em;
         width: 100%;
         .card {
           width: 50%;
+          /* max-height: 85em;
+          min-height: 60em; */
           padding: 3em 2em;
 
           .text {
