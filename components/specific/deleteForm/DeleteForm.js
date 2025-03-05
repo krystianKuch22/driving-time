@@ -38,7 +38,8 @@ export default function DeleteForm() {
             onChange={handleChange}
           />
         </label>
-        <button type="submit">Usuń konto</button>
+        <button type="submit">Usuń konto</button> 
+        
       </div>
     </StyledDeleteForm>
   );
