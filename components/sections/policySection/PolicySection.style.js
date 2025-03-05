@@ -39,7 +39,6 @@ export const StyledPolicySection = styled.section`
     h1 {
       padding: 1em 0;
     }
-
     h2 {
       padding: 1em 0;
     }
@@ -52,5 +51,4 @@ export const StyledPolicySection = styled.section`
   @media screen and (min-width: 1200px) {
     width: 70%;
   }
-
 `;
