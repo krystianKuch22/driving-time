@@ -39,7 +39,6 @@ export default function DeleteForm() {
           />
         </label>
         <button type="submit">Usuń konto</button> 
-        
       </div>
     </StyledDeleteForm>
   );
