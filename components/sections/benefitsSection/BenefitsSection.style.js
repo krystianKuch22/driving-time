@@ -95,7 +95,7 @@ export const StyledBenefitsSection = styled.section`
 
           ul {
             li {
-              font-size: 1.2rem;
+              font-size: 1rem;
             }
           }
         }
@@ -124,7 +124,7 @@ export const StyledBenefitsSection = styled.section`
           .text {
             ul {
               li {
-                font-size: 1.3rem;
+                font-size: 1.1rem;
               }
             }
           }
