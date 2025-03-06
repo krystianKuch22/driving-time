@@ -29,7 +29,6 @@ export const StyledBenefitsSection = styled.section`
       .card {
         display: flex;
         flex-direction: column;
-        align-items: center;
         width: 25em;
         min-height: 40em;
         border: solid 1px #a2acfe;
