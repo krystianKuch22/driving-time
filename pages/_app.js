@@ -37,6 +37,7 @@ function App({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme === "dark" ? darkTheme : lightTheme}>
       <Head>
+        <title>Driving Time</title>
         <link rel="icon" type="image/svg+xml" href="/favicon2.svg" />
         <meta
           name="viewport"
