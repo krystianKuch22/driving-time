@@ -139,7 +139,7 @@ export const StyledAboutSection = styled.section`
         position: absolute;
         right: 0;
         width: 50%;
-        height: 75vh;
+        height: 43em;
       }
     }
   }
